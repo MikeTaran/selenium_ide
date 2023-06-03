@@ -1,0 +1,3717 @@
+{
+  "id": "d0151cd5-7a08-416f-aec5-a877020a3b82",
+  "version": "2.0",
+  "name": "Smoke_Menu_More",
+  "url": "https://capital.com/",
+  "tests": [{
+    "id": "58e6b29b-9e82-4590-bff1-dcc1cfdbba4a",
+    "name": "About Capital",
+    "commands": [{
+      "id": "6e7639d3-9143-4185-8dd3-0293bbafaaf8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "911dcc8a-2ab9-4e67-a5fd-bbbc1d928e05",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a962062-06c0-4796-8557-640af332802d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63a70c9a-601e-47c8-ab3a-7e0aacf202b9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8292487-aa7f-453a-a840-9949ca36202d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'English')]",
+      "targets": [
+        ["css=.active > .js-langName", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18824bfc-c1fc-4fb3-b29e-618fd4d64526",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17facaf4-a619-4427-a19c-c02f43a502f5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff290587-e627-49a5-890f-661448949d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldDropdown__control--hidden",
+      "targets": [
+        ["css=.fieldDropdown__control--hidden", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aae0f722-82b8-47e5-a33f-30f69a0b5dce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4e2e080-f62e-4562-acd0-33cb6bacfe1e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "aus"
+    }, {
+      "id": "dbff8907-a17e-4556-9d65-664173e8003b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Australia')]",
+      "targets": [
+        ["css=li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Australia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2033a48-754f-4d01-8818-489778fbe5c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-nav__item:nth-child(5) .grid:nth-child(1) strong",
+      "targets": [
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(1) strong", "css:finder"],
+        ["xpath=//div[5]/div/div/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'About Capital')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6156ab4-6094-4549-aa2d-e09d425f4d89",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41b1cec8-a344-4e04-a941-4c96457056c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control01",
+      "targets": [
+        ["id=slick-slide-control01", "id"],
+        ["css=#slick-slide-control01", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control01']", "xpath:attributes"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbc3aa50-e46c-4c65-8083-492b766e8cb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control02",
+      "targets": [
+        ["id=slick-slide-control02", "id"],
+        ["css=#slick-slide-control02", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control02']", "xpath:attributes"],
+        ["xpath=//li[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b293f6d-2c01-474d-b155-95466f06b145",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control03",
+      "targets": [
+        ["id=slick-slide-control03", "id"],
+        ["css=#slick-slide-control03", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control03']", "xpath:attributes"],
+        ["xpath=//li[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6e9b331-1012-4a6d-b4e7-6cedf7ba4783",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control04",
+      "targets": [
+        ["id=slick-slide-control04", "id"],
+        ["css=#slick-slide-control04", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control04']", "xpath:attributes"],
+        ["xpath=//li[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'5')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04b2630-dead-420e-8782-6e424f5e2137",
+      "comment": "",
+      "command": "click",
+      "target": "id=slick-slide-control00",
+      "targets": [
+        ["id=slick-slide-control00", "id"],
+        ["css=#slick-slide-control00", "css:finder"],
+        ["xpath=//button[@id='slick-slide-control00']", "xpath:attributes"],
+        ["xpath=//li/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c8b17a2-a4a6-4ef9-aa73-ee3c21d22c75",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=See why people choose to trade with Capital.com",
+      "targets": [
+        ["linkText=See why people choose to trade with Capital.com", "linkText"],
+        ["css=.button-link", "css:finder"],
+        ["xpath=//a[contains(text(),'See why people choose to trade with Capital.com')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/why-capital-com')])[2]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See why people choose to trade with Capital.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f0fa93-0bfc-42e0-ba1b-b23aa33df55f",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eb4d38f-0ca3-4c84-922f-ef2c59d93069",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0995ea7e-c46b-4f74-a352-6b33b7982530",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(1)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f59d4e47-9ab5-4d73-ba73-67d2f6e8d7c7",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f647e935-d42a-431c-b434-e5e064fa79df",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7b6db53-c6a8-4d35-bd81-d97cdbedbb2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(2)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "728b73bc-4ee5-44df-b856-4f72aebb9c45",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "319d022e-6230-4556-bbfc-aa15cd87480b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e88de3c-9094-4e94-986b-17de093c4dc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badge-platform",
+      "targets": [
+        ["css=.badge-platform", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6bc9eb3-2f1f-4857-b9c1-f9c01a7c41e2",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04884994-8849-485a-8e6b-878e9ac44ddc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec21767a-2db3-4303-aa95-6862b6542e4c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Authorised and regulated by the Financial Conduct Authority (FCA)",
+      "targets": [
+        ["linkText=Authorised and regulated by the Financial Conduct Authority (FCA)", "linkText"],
+        ["css=.text-md > p:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Authorised and regulated by the Financial Conduct Authority (FCA)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://register.fca.org.uk/s/firm?id=001b0000042g1LfAAI')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Authorised and regulated by the Financial Conduct Authority (FCA)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5662",
+      "windowTimeout": 2000
+    }, {
+      "id": "4dab9fe0-709e-4992-b9c0-87dccb42ec44",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98cf534d-f610-4ee4-b50f-e178b220a09c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5662}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c89c73a-e19e-4bca-8f19-97dd6340b76d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d273537-6551-49c0-a1fd-a9b2d93b4d3d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcf9146b-49e4-469f-8abc-0ca7b7790961",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Authorised and regulated by the Cyprus Securities and Exchange Commission (CySEC)",
+      "targets": [
+        ["linkText=Authorised and regulated by the Cyprus Securities and Exchange Commission (CySEC)", "linkText"],
+        ["css=.text-md > p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Authorised and regulated by the Cyprus Securities and Exchange Commission (CySEC)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.cysec.gov.cy/en-GB/entities/investment-firms/cypriot/42294/')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Authorised and regulated by the Cyprus Securities and Exchange Commission (CySEC)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9431",
+      "windowTimeout": 2000
+    }, {
+      "id": "a35a14a2-aaca-470c-bb83-77d925c3adc5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9431}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4106cde6-4f75-4b4f-81b8-fb9e895c3ef7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fa7f285-c6d0-4e78-9dcc-5fee664cb4dd",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0254278-a80b-474c-aac4-be942ea55ae6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Financial Services Authority (FSA)",
+      "targets": [
+        ["linkText=Financial Services Authority (FSA)", "linkText"],
+        ["css=.text-md > p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Financial Services Authority (FSA)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://fsaseychelles.sc/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/p[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Financial Services Authority (FSA)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6697",
+      "windowTimeout": 2000
+    }, {
+      "id": "3899b125-90b5-4cd7-b5b7-89027782edb5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6697}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b323a049-68af-47c1-bd3f-73a4e20ec0eb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e121f6c-5aa1-4113-81b6-9bb4137f836b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "174a9b55-353e-482a-8fff-bec8130e0ff8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a410f15-89f5-4a66-89e0-069c51731eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7321c53-e1d1-4fd6-9182-25d2dc8f246d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Story",
+      "targets": [
+        ["linkText=Our Story", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(1) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Story')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/our-story')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Story')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9a9c5ad-07ba-4bb4-a1d8-f9d470c39001",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7323d6e8-730a-4070-97f7-ed61f16bec59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start trading now",
+      "targets": [
+        ["linkText=Start trading now", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start trading now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/platform')]", "xpath:href"],
+        ["xpath=//section[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start trading now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec28ee14-b60e-4782-8a02-6c31417f7ee6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf9e4f59-6337-47a1-b12a-34b6ec8c32b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "303f1ee0-8e56-4699-b2cb-321ea0d23541",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce0a7036-bf0e-4b45-8581-c3e53627eb28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e79c8416-29fd-4a01-b9cd-b3e7c5f900f8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/about-us')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8c32bed-5870-41d2-8adc-152c25778d8e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/about-us')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bb7d14e-5498-44e3-b4b1-ab908acf9a85",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Whitepaper",
+      "targets": [
+        ["linkText=Whitepaper", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(1) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Whitepaper')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/whitepaper')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Whitepaper')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e190b733-21f3-4329-b2cc-173bfacde9f3",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f171b986-3661-4b14-a2be-e481376565de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Viktor Prokopenya",
+      "targets": [
+        ["linkText=Viktor Prokopenya", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(1) > .cc-nav__link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Viktor Prokopenya')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/viktor-prokopenya')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Viktor Prokopenya')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4033bd-8098-4911-8316-e5b5fe1ff05e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Investmate",
+      "targets": [
+        ["linkText=Investmate", "linkText"],
+        ["css=p:nth-child(6) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Investmate')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/learn-trading-app')])[2]", "xpath:href"],
+        ["xpath=//p[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9902",
+      "windowTimeout": 2000
+    }, {
+      "id": "caf38925-1159-40e2-825c-4f77195afc45",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9902}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d43e32b5-8323-4f9e-96b2-e699bb3453ce",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d81ab58e-bd58-4bc3-bbdc-61c54e327e98",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aeebfc3b-a28d-4280-bd6e-cc48d230efb4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Capital.com TV",
+      "targets": [
+        ["linkText=Capital.com TV", "linkText"],
+        ["css=p:nth-child(6) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Capital.com TV')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw')]", "xpath:href"],
+        ["xpath=//p[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Capital.com TV')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2080",
+      "windowTimeout": 2000
+    }, {
+      "id": "29e0ea9a-5fe1-44c4-a4ff-47b6e8bc490d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2080}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fa847a6-ab47-439f-8f28-d74945e68459",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16da097d-f158-4f9d-8784-e46e1b4f258e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ccfb761-7df7-4dad-9fd4-b3df01b3915d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa5a8fa-ae87-4ef2-8869-2da6d4a47099",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2163958a-1774-4199-9915-2d030e319bf2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Global Offices",
+      "targets": [
+        ["linkText=Our Global Offices", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .cc-nav__link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Global Offices')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/international-offices')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Global Offices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "235c1a29-9bf5-46e2-9a93-22da224b857f",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) > a",
+      "targets": [
+        ["css=td:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'FCA')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/terms-and-policies')]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd62e85-99bf-4a87-ab78-1c617fdfe1db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97257954-b837-4dee-8b60-eb7414d1d96c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "71eb459c-4a55-41c3-a6f9-e5d2548fd0f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6427e6a-18e2-4242-90f9-88c3a6a20180",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Compliance & Legals",
+      "targets": [
+        ["linkText=Compliance & Legals", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .cc-nav__link:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Compliance & Legals')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/business-model')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Compliance & Legals')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "093f74bd-8dff-44c6-bc63-8dc65aacab90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Margin",
+      "targets": [
+        ["linkText=Margin", "linkText"],
+        ["css=p:nth-child(5) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Margin')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/margin-trading')])[2]", "xpath:href"],
+        ["xpath=//p[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Margin')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dea5739-8def-4dec-b854-db8505b62abd",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0309a7f-83c3-4575-a51f-bbe74290efe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Leverage",
+      "targets": [
+        ["linkText=Leverage", "linkText"],
+        ["css=p:nth-child(5) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Leverage')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/leverage-definition')]", "xpath:href"],
+        ["xpath=//p[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Leverage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90b037d9-2be6-4a41-b174-f583b054d706",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc496435-4c87-4b60-8453-e402d0f09f7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=courses",
+      "targets": [
+        ["linkText=courses", "linkText"],
+        ["css=p:nth-child(13) > a:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'courses')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/online-finance-courses')])[2]", "xpath:href"],
+        ["xpath=//p[10]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e24b7f1-446b-431d-a99f-660b2a550e33",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b7afce6-554a-422a-9f8b-bfec4ac3cc21",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Spread",
+      "targets": [
+        ["linkText=Spread", "linkText"],
+        ["css=p:nth-child(13) > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Spread')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/spread-definition')]", "xpath:href"],
+        ["xpath=//p[10]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Spread')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ce34eb2-4456-43f4-8976-91ff10f5f61e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e54c0d5c-b75a-48f3-a951-8cd50165ea7f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=instrument's page",
+      "targets": [
+        ["linkText=instrument's page", "linkText"],
+        ["css=p:nth-child(21) > a", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/derivative-financial-instruments')])[3]", "xpath:href"],
+        ["xpath=//p[17]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d8ee7e-5b2f-4e7d-b73b-2f33bcdd5581",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf373d3d-32d6-4621-8cea-1d6a5351ae50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup use",
+      "targets": [
+        ["css=.js_signup use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0e2abc-54a2-4a95-8027-8061d42f194c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d56caed-2c9a-4502-bc7b-5ab393976408",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Trade confirmation",
+      "targets": [
+        ["linkText=Trade confirmation", "linkText"],
+        ["css=.legal__sidebar--link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Trade confirmation')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trade-confirmation')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Trade confirmation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "847d88fa-5491-41b5-b660-630644d2232e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "248a380e-859d-4ab3-8c6f-8e9c8aa81211",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regulations",
+      "targets": [
+        ["linkText=Regulations", "linkText"],
+        ["css=.legal__sidebar--link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Regulations')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/regulations')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Regulations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9cc47f3-e37b-4950-af01-dcc8e5887417",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complaints Procedure (CCAU)",
+      "targets": [
+        ["linkText=Complaints Procedure (CCAU)", "linkText"],
+        ["css=.legal__sidebar--link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Complaints Procedure (CCAU)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/complaints-procedure-asic')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Complaints Procedure (CCAU)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0932174-3f39-4ace-8f6f-e13b5f5e4b7c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75737a37-6ebd-476c-aeb1-10a14e00e02c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Terms and Policies",
+      "targets": [
+        ["linkText=Terms and Policies", "linkText"],
+        ["css=.legal__sidebar--link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms and Policies')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/terms-and-policies')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Terms and Policies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f174b94-a8c1-446c-9fa1-540f56fa3fbc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22bf1ade-eddf-45ca-bc10-e712f4308546",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,920)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dbef43b-f87c-4eb8-ad2a-a2ca6fd5c52e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "560b7471-6e3a-42c9-b0ee-833138106ca6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Careers at Capital",
+      "targets": [
+        ["linkText=Careers at Capital", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .cc-nav__link:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Careers at Capital')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/careers')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Careers at Capital')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8855efbb-a493-405b-9308-f3318595fc2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) > .splide__pagination__page",
+      "targets": [
+        ["css=li:nth-child(2) > .splide__pagination__page", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='splide01']/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b277b8-3863-4418-8d1d-ed8d4e2361e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > .splide__pagination__page",
+      "targets": [
+        ["css=li:nth-child(3) > .splide__pagination__page", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='splide01']/ul/li[3]/button", "xpath:idRelative"],
+        ["xpath=//li[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f92b768-5551-40db-b187-5be50e616b63",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Work with us",
+      "targets": [
+        ["linkText=Work with us", "linkText"],
+        ["css=.button-main", "css:finder"],
+        ["xpath=//a[contains(text(),'Work with us')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://jobs.lever.co/capital')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Work with us')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2307",
+      "windowTimeout": 2000
+    }, {
+      "id": "7554a1a6-170f-43f9-acc2-004b2de97b3b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2307}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ab64505-ddf7-4707-9430-4f5e102473db",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5515ac9c-be0e-4494-a997-0c1880f5558a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e9e4c42-3ce3-47ad-b81f-c4f80a381db2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e886bc2-5184-4950-a0f9-c50fa13bf5b7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "067e837d-dce0-4b39-9f29-5cb89a2c462e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "03cd3268-8de7-4ada-a4dc-801647f610a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Media Centre",
+      "targets": [
+        ["linkText=Media Centre", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .cc-nav__link:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Media Centre')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/media-centre')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Media Centre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb939d29-cd61-4a35-8c22-7eb13ab1e209",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,483)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8aab6ec8-0b95-45ce-9711-0140bc79452a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7027d69a-38af-4c68-9397-50abed35e998",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9bbeebd-d12d-492e-82d8-9ba13dab8606",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e731d70e-4240-45ff-8a52-7ddcb52d88fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.common-tabs__nav-item:nth-child(2)",
+      "targets": [
+        ["css=.common-tabs__nav-item:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Press releases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d005f5f-5bb2-490d-a164-c950c3bd5784",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2022",
+      "targets": [
+        ["linkText=2022", "linkText"],
+        ["css=.menuSelect__drop > a:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'2022')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[4]", "xpath:href"],
+        ["xpath=//nav/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'2022')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e524382-2626-4286-b9c0-86c1d2d01b15",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2021",
+      "targets": [
+        ["linkText=2021", "linkText"],
+        ["css=.menuSelect__drop > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'2021')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[5]", "xpath:href"],
+        ["xpath=//nav/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'2021')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "469126c3-e86b-4c5b-a9bd-becf4ed68981",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2020",
+      "targets": [
+        ["linkText=2020", "linkText"],
+        ["css=.menuSelect__drop > a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'2020')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[6]", "xpath:href"],
+        ["xpath=//nav/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'2020')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71e8743c-43e1-47cb-9d02-1a9724fd452e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2019",
+      "targets": [
+        ["linkText=2019", "linkText"],
+        ["css=.menuSelect__drop > a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'2019')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[7]", "xpath:href"],
+        ["xpath=//nav/div/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "153c0c95-955e-4350-ada3-a4a0cbb92462",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2018",
+      "targets": [
+        ["linkText=2018", "linkText"],
+        ["css=.menuSelect__drop > a:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'2018')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[8]", "xpath:href"],
+        ["xpath=//nav/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'2018')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edb41b71-af05-4e10-accf-c702a1220948",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f00a5c8-bec5-4906-aa68-2b2bfe2e30ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.common-tabs__nav-item:nth-child(3)",
+      "targets": [
+        ["css=.common-tabs__nav-item:nth-child(3)", "css:finder"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Media comments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60fca244-6391-4c55-9aba-f9d6a60f1a8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2023-04-18 - Daniela Hathorn, Senior Market Analyst at Capital.com: Strong technicals could see equity markets stage a healthy and sustained rally')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca3edb63-6113-4561-a6c5-dccdb9b307f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2023-04-18 - Daniela Hathorn, Senior Market Analyst at Capital.com: Strong technicals could see equity markets stage a healthy and sustained rally')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb70a8d0-5dd4-4554-8e7c-a3511c34998d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-12-08 - Daniela Hathorn, Senior Market Analyst at Capital.com: OPEC, central banks and China will likely support oil prices in 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c79354-3f68-4d52-985f-76f2ae6a22ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-12-08 - Daniela Hathorn, Senior Market Analyst at Capital.com: OPEC, central banks and China will likely support oil prices in 2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c6bee5-b69d-4ab5-ad30-074d21ebbbf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-12-02 - Piero Cingari, Market Specialist at Capital.com: Slowing Fed rate hikes drive ‘FOMO’ sentiment among investors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "806accfc-5dab-447d-90b4-1e2d8e535d5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-12-02 - Piero Cingari, Market Specialist at Capital.com: Slowing Fed rate hikes drive ‘FOMO’ sentiment among investors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00011fa7-0aad-490b-8fba-a645605a6c15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-11-18 - Justin Mcqueen, Market Specialist, Capital.com: Geopolitics steps aside as central banks take centre stage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87a9f858-e445-4d04-bd80-8577794861ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-11-18 - Justin Mcqueen, Market Specialist, Capital.com: Geopolitics steps aside as central banks take centre stage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58611b7b-f887-4804-a674-a041929d4d33",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-28 - Daniela Hathorn, Market Analyst, Capital.com: Geopolitics steps aside as central banks take centre stage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "def04e0b-95e5-493f-b809-7cea2a1e07b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-28 - Daniela Hathorn, Market Analyst, Capital.com: Geopolitics steps aside as central banks take centre stage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c21019b0-3d8a-4352-99a9-5ece18b1c51c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-17 - Daniela Hathorn, Market Analyst, Capital.com: Jeremy Hunt completes mini-budget U-turn; markets show little reaction for now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22019af2-03c8-4cae-93a2-aa7642e390ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-17 - Daniela Hathorn, Market Analyst, Capital.com: Jeremy Hunt completes mini-budget U-turn; markets show little reaction for now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42f71e7e-19f3-40bd-b6cb-d66764c21f18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(7) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(7) > .accordion__title", "css:finder"],
+        ["xpath=//details[7]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-07 - Daniela Hathorn, Market Analyst, Capital.com: Retail investors react to OPEC and Truss this week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c80cefa-7957-45df-81f8-496a30796bfc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(7) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(7) > .accordion__title", "css:finder"],
+        ["xpath=//details[7]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-10-07 - Daniela Hathorn, Market Analyst, Capital.com: Retail investors react to OPEC and Truss this week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be01cb0d-47e9-42cc-867d-43db4f32af1a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(8) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(8) > .accordion__title", "css:finder"],
+        ["xpath=//details[8]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-30 - Daniela Hathorn, Market Analyst, Capital.com: Is the BoE enabling the UK government’s massive spending plans?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a1a37b4-a6e8-491c-bc0a-e22fb0166e7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(8) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(8) > .accordion__title", "css:finder"],
+        ["xpath=//details[8]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-30 - Daniela Hathorn, Market Analyst, Capital.com: Is the BoE enabling the UK government’s massive spending plans?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5fb1d45-6697-4de2-9745-95beb470f401",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(9) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(9) > .accordion__title", "css:finder"],
+        ["xpath=//details[9]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-27 - Piero Cingari, Analyst, Capital.com: Retail traders increase short exposure to GBP/USD, should the BoE intervene?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fbfbe74-388d-444c-8a2c-5a4a3c726cda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(9) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(9) > .accordion__title", "css:finder"],
+        ["xpath=//details[9]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-27 - Piero Cingari, Analyst, Capital.com: Retail traders increase short exposure to GBP/USD, should the BoE intervene?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33ab1405-d5b9-40fd-8f8d-76c1ab0b7ec5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(10) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(10) h3", "css:finder"],
+        ["xpath=//details[10]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-09-23 - Daniela Hathorn, Market Analyst, Capital.com: Coordinated Central Bank Response Fails to Lift Retail Investor Sentiment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51f9167d-573f-4ea2-8ef1-19c3f8807688",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(10) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(10) h3", "css:finder"],
+        ["xpath=//details[10]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-09-23 - Daniela Hathorn, Market Analyst, Capital.com: Coordinated Central Bank Response Fails to Lift Retail Investor Sentiment')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9507def2-dccd-4b0d-91ce-566bcd2c54bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(11) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(11) > .accordion__title", "css:finder"],
+        ["xpath=//details[11]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-23 - Daniela Hathorn, Market Analyst, Capital.com: Can The Pound Sterling Recover?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "62d09939-ee1f-403b-9360-3d3a0857c6e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(11) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(11) > .accordion__title", "css:finder"],
+        ["xpath=//details[11]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-09-23 - Daniela Hathorn, Market Analyst, Capital.com: Can The Pound Sterling Recover?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "386cdb41-bed1-41d8-ad47-c960b964fcd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(12) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(12) h3", "css:finder"],
+        ["xpath=//details[12]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-18 - David Jones, Chief Market Strategist, Capital.com: Retail trading activity in Bed Bath and Beyond hits pause')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "101eff08-5a15-4990-8065-efa76dd20b5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(12) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(12) h3", "css:finder"],
+        ["xpath=//details[12]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-18 - David Jones, Chief Market Strategist, Capital.com: Retail trading activity in Bed Bath and Beyond hits pause')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34029d4a-052e-46b6-ba7b-ae7b09820f02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(13) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(13) h3", "css:finder"],
+        ["xpath=//details[13]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-08 - David Jones, Chief Market Strategist, Capital.com: Whisper It: Have Stocks Bottomed?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76ae0739-2486-4861-8531-1cd66127cce7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(13) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(13) h3", "css:finder"],
+        ["xpath=//details[13]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-08 - David Jones, Chief Market Strategist, Capital.com: Whisper It: Have Stocks Bottomed?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89ed4785-9cb9-4c26-a1f5-9cbf43dc4ca8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(14) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(14) h3", "css:finder"],
+        ["xpath=//details[14]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-05 - David Jones, Chief Market Strategist, Capital.com: Are Traders Seeing Sub-$100 Oil As A Bargain?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db71af13-3b05-413f-be76-e803204ac9d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(14) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(14) h3", "css:finder"],
+        ["xpath=//details[14]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-08-05 - David Jones, Chief Market Strategist, Capital.com: Are Traders Seeing Sub-$100 Oil As A Bargain?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e5e75de-22a4-49c3-80ba-00290326b4f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(15) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(15) > .accordion__title", "css:finder"],
+        ["xpath=//details[15]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-07-18 - David Jones, Chief Market Strategist, Capital.com: Euro Sinks Through The Magic Number')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b93aead4-1ce0-48a1-8b56-d7d1763f099d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(15) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(15) h3", "css:finder"],
+        ["xpath=//details[15]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-07-18 - David Jones, Chief Market Strategist, Capital.com: Euro Sinks Through The Magic Number')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f1cbf5-8bdf-4424-84b6-9e7b8f160a9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(16) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(16) h3", "css:finder"],
+        ["xpath=//details[16]/summary/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9770ba1-3983-42b6-b3eb-d698479346f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(16) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(16) h3", "css:finder"],
+        ["xpath=//details[16]/summary/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e74cd272-3afd-4a75-bc9b-85e18cfacba1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(17) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(17) h3", "css:finder"],
+        ["xpath=//details[17]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-06-24 - David Jones, Chief Market Strategist, Capital.com: Clients Step Up Short Positions As Markets Remain Volatile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd713da7-6cb8-42bf-93ed-9221a50ba0f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(17) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(17) h3", "css:finder"],
+        ["xpath=//details[17]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-06-24 - David Jones, Chief Market Strategist, Capital.com: Clients Step Up Short Positions As Markets Remain Volatile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50634b93-7c49-4e37-a163-14c4cade0968",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(18) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(18) > .accordion__title", "css:finder"],
+        ["xpath=//details[18]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-06-22 - David Jones, Chief Market Strategist, Capital.com: Is Negative Sentiment The Perfect Set-Up For A Market Shock?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58a21a15-8533-4912-a19f-0c5dd2daf970",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(18) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(18) > .accordion__title", "css:finder"],
+        ["xpath=//details[18]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-06-22 - David Jones, Chief Market Strategist, Capital.com: Is Negative Sentiment The Perfect Set-Up For A Market Shock?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "80ec99c4-2f7d-4f64-bb78-8cd18b169ada",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(19) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(19) > .accordion__title", "css:finder"],
+        ["xpath=//details[19]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-27 - David Jones, Chief Market Strategist, Capital.com: Natural Gas hits 14-year highs as market outlook remains uncertain')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "937f315f-18b2-45e0-bab0-4635beb725f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(19) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(19) > .accordion__title", "css:finder"],
+        ["xpath=//details[19]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-27 - David Jones, Chief Market Strategist, Capital.com: Natural Gas hits 14-year highs as market outlook remains uncertain')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a21d7d26-424e-4944-87b8-7ac328aa3537",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(20) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(20) > .accordion__title", "css:finder"],
+        ["xpath=//details[20]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-20 - David Jones, Chief Market Strategist, Capital.com: Investors are trying to catch the falling knife')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b2e0fe-741b-42ab-b7ee-7b7a30db3f45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(20) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(20) > .accordion__title", "css:finder"],
+        ["xpath=//details[20]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-20 - David Jones, Chief Market Strategist, Capital.com: Investors are trying to catch the falling knife')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "849fea96-1692-4709-b76f-cb64cd5ba1fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(21) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(21) > .accordion__title", "css:finder"],
+        ["xpath=//details[21]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-06 - David Jones, Chief Market Strategist, Capital.com: Bear Market Start, Or Will Bulls Have The Last Say?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6692e633-6bf5-475f-82c8-9a32fa8aaf73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(21) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(21) > .accordion__title", "css:finder"],
+        ["xpath=//details[21]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-05-06 - David Jones, Chief Market Strategist, Capital.com: Bear Market Start, Or Will Bulls Have The Last Say?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b43cc7c3-cf2e-4240-b3d8-b5d4fbe6f9fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(22) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(22) h3", "css:finder"],
+        ["xpath=//details[22]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-04-29 - David Jones, Chief Market Strategist, Capital.com: Disappointing US Economy Stokes Investors Worries')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c65b38-5180-4c95-9dd2-221d7e618d13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(22) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(22) h3", "css:finder"],
+        ["xpath=//details[22]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-04-29 - David Jones, Chief Market Strategist, Capital.com: Disappointing US Economy Stokes Investors Worries')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d6eb76c-dd87-429c-9685-a113b28559e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(23) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(23) h3", "css:finder"],
+        ["xpath=//details[23]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-04-08 - David Jones, Chief Market Strategist, Capital.com: Dead Cat Bounce? Traders Still No Clearer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e46f4e9c-0f69-4fc5-9497-e84d596b4761",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(23) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(23) h3", "css:finder"],
+        ["xpath=//details[23]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-04-08 - David Jones, Chief Market Strategist, Capital.com: Dead Cat Bounce? Traders Still No Clearer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1fd8a0-7d21-41d2-9c9d-6241ff30416d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(24) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(24) > .accordion__title", "css:finder"],
+        ["xpath=//details[24]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-03-31 - David Jones, Chief Market Strategist, Capital.com : Oil Price Flip Flops, As Meme Stocks Ride Again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c6b419e-9cec-4762-954f-e25da23a2686",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(24) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(24) > .accordion__title", "css:finder"],
+        ["xpath=//details[24]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-03-31 - David Jones, Chief Market Strategist, Capital.com : Oil Price Flip Flops, As Meme Stocks Ride Again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "483b0d37-d575-449f-9ce7-33415ee56db6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(25) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(25) h3", "css:finder"],
+        ["xpath=//details[25]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-03-25 - David Jones, Chief Market Strategist, Capital.com: Retail investors inch towards the NASDAQ 100 again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9879837d-ab75-41e6-afc6-2cd9df2715e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(25) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(25) h3", "css:finder"],
+        ["xpath=//details[25]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-03-25 - David Jones, Chief Market Strategist, Capital.com: Retail investors inch towards the NASDAQ 100 again')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb7c826-ae4c-4513-a199-7f4c1700c339",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(26) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(26) > .accordion__title", "css:finder"],
+        ["xpath=//details[26]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-03-18 - David Jones, Chief Market Strategist, Investors keep an eye on Gold and Oil as prices fall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bece555-a414-49b2-b1a1-dfc4a1476af1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(26) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(26) h3", "css:finder"],
+        ["xpath=//details[26]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-03-18 - David Jones, Chief Market Strategist, Investors keep an eye on Gold and Oil as prices fall')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94e662ce-3df1-4e13-aa10-e6ba31ca1394",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(27) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(27) > .accordion__title", "css:finder"],
+        ["xpath=//details[27]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-03-17 - David Jones, Chief Market Strategist, Traders rush to short USD/JPY ahead of BoJ meeting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3f905c2-dc6b-4b1a-9c35-af5f8ada649e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(27) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(27) > .accordion__title", "css:finder"],
+        ["xpath=//details[27]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-03-17 - David Jones, Chief Market Strategist, Traders rush to short USD/JPY ahead of BoJ meeting')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e51bef5-214e-4729-8300-cb862cc941b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(28) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(28) h3", "css:finder"],
+        ["xpath=//details[28]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-03-04 - David Jones, Chief Market Strategist, Oil gains continue - but are traders growing wary of gold? ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9df0560d-ff65-44b4-a2f6-df47991a8942",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(28) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(28) h3", "css:finder"],
+        ["xpath=//details[28]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-03-04 - David Jones, Chief Market Strategist, Oil gains continue - but are traders growing wary of gold? ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a744ba1-09f2-43ec-a5ec-389ccb9da6c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(29) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(29) > .accordion__title", "css:finder"],
+        ["xpath=//details[29]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-02-24 - David Jones, Chief Market Strategist, Volatility Everywhere You Look - But Have Markets Over-Reacted?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b2feb9a-9698-4c1b-a8d8-759b922261da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(29) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(29) > .accordion__title", "css:finder"],
+        ["xpath=//details[29]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-02-24 - David Jones, Chief Market Strategist, Volatility Everywhere You Look - But Have Markets Over-Reacted?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f854e0-651b-49f0-beef-e6b800f3261b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(30) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(30) h3", "css:finder"],
+        ["xpath=//details[30]/summary/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e555c56-4587-4587-af23-74322da429b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(30) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(30) h3", "css:finder"],
+        ["xpath=//details[30]/summary/h3", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d30ed9b-aa73-44cd-ad81-53462f4e28ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(31) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(31) h3", "css:finder"],
+        ["xpath=//details[31]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-02-11 - David Jones, Chief Market Strategist, Inflation continues to surprise; Gold briefly shined. ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adf3b322-6d67-413d-b1b8-717c72426770",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(31) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(31) h3", "css:finder"],
+        ["xpath=//details[31]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2022-02-11 - David Jones, Chief Market Strategist, Inflation continues to surprise; Gold briefly shined. ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9fd0d83-588c-43ca-b3ed-239e71a502ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(32) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(32) > .accordion__title", "css:finder"],
+        ["xpath=//details[32]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-02-04 - David Jones, Chief Market Strategist, Dead Cat Bounce Or A Market Recovery?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1b856c-c0d2-405c-8fce-7f7797680c81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(32) p:nth-child(4)",
+      "targets": [
+        ["css=.accordion__item:nth-child(32) p:nth-child(4)", "css:finder"],
+        ["xpath=//details[32]/div/p[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61229cb0-0317-4e0e-8fa8-3c28901caa8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(32) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(32) > .accordion__title", "css:finder"],
+        ["xpath=//details[32]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-02-04 - David Jones, Chief Market Strategist, Dead Cat Bounce Or A Market Recovery?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "526e594e-15ac-4d9c-ae95-01701afe9ece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(33) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(33) > .accordion__title", "css:finder"],
+        ["xpath=//details[33]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-28 - David Jones, Chief Market Strategist, Stock Markets Remain Volatile; Pity The Central Bankers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33f8b01d-521c-4d80-b0e5-7276157c691f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(33) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(33) > .accordion__title", "css:finder"],
+        ["xpath=//details[33]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-28 - David Jones, Chief Market Strategist, Stock Markets Remain Volatile; Pity The Central Bankers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc814008-e9fa-4341-9d37-37b2c716676f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(34) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(34) > .accordion__title", "css:finder"],
+        ["xpath=//details[34]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b947bf64-b318-4a51-8135-33289b66dbd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(34) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(34) > .accordion__title", "css:finder"],
+        ["xpath=//details[34]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a6f6765-b6e9-4ba2-a3c9-fa23632b87bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(35) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(35) > .accordion__title", "css:finder"],
+        ["xpath=//details[35]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-14 - David Jones, Chief Market Strategist, Traders turn to both gold and stocks as the battle between The Risk Takers and The Cautious takes root')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c78112d0-f453-400e-beaf-ef4d9c1a9216",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(35) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(35) > .accordion__title", "css:finder"],
+        ["xpath=//details[35]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-14 - David Jones, Chief Market Strategist, Traders turn to both gold and stocks as the battle between The Risk Takers and The Cautious takes root')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b902e3a-433c-4653-ad1d-2d68a233acc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(36) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(36) > .accordion__title", "css:finder"],
+        ["xpath=//details[36]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-03 - David Jones, Chief Market Strategist, What are the best ways to invest your money in 2022?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2f17d03-ca4c-4c30-a756-afc547d3ba54",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(36) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(36) > .accordion__title", "css:finder"],
+        ["xpath=//details[36]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2022-01-03 - David Jones, Chief Market Strategist, What are the best ways to invest your money in 2022?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "03e4c674-80a2-4fdf-9c1b-c20f424b8a56",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(37) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(37) > .accordion__title", "css:finder"],
+        ["xpath=//details[37]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-12-27 - David Jones, Chief Market Strategist, Bitcoin and Tesla soar but cash and gold flop – which assets will make you richer in 2022?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e4b0dd6-a45e-4539-be41-73dad99f7a0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(37) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(37) > .accordion__title", "css:finder"],
+        ["xpath=//details[37]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-12-27 - David Jones, Chief Market Strategist, Bitcoin and Tesla soar but cash and gold flop – which assets will make you richer in 2022?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5397d91-7d31-4c7b-9066-9e2d0325e060",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(38) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(38) > .accordion__title", "css:finder"],
+        ["xpath=//details[38]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-12-02 - David Jones, Chief Market Strategist, Omicron market meltdown: how worried should investors be?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef114405-d410-4719-9df2-03ab6e78d95d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(38) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(38) > .accordion__title", "css:finder"],
+        ["xpath=//details[38]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-12-02 - David Jones, Chief Market Strategist, Omicron market meltdown: how worried should investors be?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33387277-7a02-4955-a6a7-e5b6e102c838",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(39) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(39) > .accordion__title", "css:finder"],
+        ["xpath=//details[39]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-11-15 - David Jones, Chief Market Strategist, Is it too late to boost your exposure to commodities to hedge against inflation?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aa7886d-5c7c-4259-bfd7-8924fb3af857",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(39) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(39) > .accordion__title", "css:finder"],
+        ["xpath=//details[39]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-11-15 - David Jones, Chief Market Strategist, Is it too late to boost your exposure to commodities to hedge against inflation?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "377713b2-9497-46e1-8a33-0ad86ba5ffaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(40) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(40) > .accordion__title", "css:finder"],
+        ["xpath=//details[40]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-20 - David Jones, Chief Market Strategist; Retail investor sentiment cools in face of the Delta variant and shrinking government stimulus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33789d5e-79c4-4042-8db7-39533e823bb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(40) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(40) > .accordion__title", "css:finder"],
+        ["xpath=//details[40]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-20 - David Jones, Chief Market Strategist; Retail investor sentiment cools in face of the Delta variant and shrinking government stimulus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77a78ee-1397-4eca-af13-bc878644f8c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion",
+      "targets": [
+        ["css=.accordion", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06cda712-8922-4f6f-945a-b40c5e285852",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(41) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(41) > .accordion__title", "css:finder"],
+        ["xpath=//details[41]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-16 - David Jones, Chief Market Strategist; Capital.com sees retail trading volumes in gold surge by 787% in one day')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8dff64d-f889-4e10-bc16-3396cdfcfe6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(41) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(41) > .accordion__title", "css:finder"],
+        ["xpath=//details[41]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-16 - David Jones, Chief Market Strategist; Capital.com sees retail trading volumes in gold surge by 787% in one day')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a59d7d8-2c7c-4b65-b60c-c20849d003d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(42) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(42) > .accordion__title", "css:finder"],
+        ["xpath=//details[42]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-05 - David Jones, Chief Market Strategist; After a disappointing IPO, is Robinhood suddenly worth twice as much as it was last week?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38c9727a-781c-4ed4-b1cc-b509d1acabf4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(42) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(42) > .accordion__title", "css:finder"],
+        ["xpath=//details[42]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-08-05 - David Jones, Chief Market Strategist; After a disappointing IPO, is Robinhood suddenly worth twice as much as it was last week?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eddc10db-0bf6-4f1f-8f55-fe7da212f4b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(43) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(43) > .accordion__title", "css:finder"],
+        ["xpath=//details[43]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-07-20 - David Jones, Chief Market Strategist; Fed announcement leaves little imprint as Capital.com traders continue to buy the dip this week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "987c6b87-eadc-4ef8-894e-00a2a86094f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(43) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(43) > .accordion__title", "css:finder"],
+        ["xpath=//details[43]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-07-20 - David Jones, Chief Market Strategist; Fed announcement leaves little imprint as Capital.com traders continue to buy the dip this week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4aa65e5c-d8b3-486d-9885-bd12ed71d4db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(44) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(44) > .accordion__title", "css:finder"],
+        ["xpath=//details[44]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-07-01 - David Jones, Chief Market Strategist; Global indices surge to all-time highs while oil continues to trade higher, questioning the ‘temporary’ nature of inflation concerns.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c46e4f86-ce21-435b-a969-724a2ffad523",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(44) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(44) > .accordion__title", "css:finder"],
+        ["xpath=//details[44]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-07-01 - David Jones, Chief Market Strategist; Global indices surge to all-time highs while oil continues to trade higher, questioning the ‘temporary’ nature of inflation concerns.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "970f3a78-8854-475d-90a3-85b0551623fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(45) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(45) h3", "css:finder"],
+        ["xpath=//details[45]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2021-06-27 - David Jones, Chief Market Strategist; Top-Traded Markets this Week : Retail investors buy the dip in crypto and Tesla; while the outlook for oil divides opinions.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b9d954-c367-4330-b4b2-016a45db367c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(45) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(45) h3", "css:finder"],
+        ["xpath=//details[45]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'2021-06-27 - David Jones, Chief Market Strategist; Top-Traded Markets this Week : Retail investors buy the dip in crypto and Tesla; while the outlook for oil divides opinions.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "903f8697-899d-4a61-bab9-5267d3addcfb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(46) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(46) > .accordion__title", "css:finder"],
+        ["xpath=//details[46]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-06-24 - David Jones, Chief Market Strategist; Central banks’ signal temporary concerns over inflation, traders continue to buy the dip while oil is the market to watch in the weeks ahead')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba520530-da4c-43a6-8164-27eb74d65544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(46) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(46) > .accordion__title", "css:finder"],
+        ["xpath=//details[46]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'2021-06-24 - David Jones, Chief Market Strategist; Central banks’ signal temporary concerns over inflation, traders continue to buy the dip while oil is the market to watch in the weeks ahead')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6c22f56-887d-4793-992e-39b5230c4ad5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43a1b3a6-366f-46a4-bf12-7315822fce86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7234c13-bcdb-4cc1-9114-3d33b3cbe3fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae1f25f-4fd0-4d5c-a398-91e15d85e15a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.common-tabs__nav-item:nth-child(4)",
+      "targets": [
+        ["css=.common-tabs__nav-item:nth-child(4)", "css:finder"],
+        ["xpath=//li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Pulse report')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d366e5e6-0ed5-408f-b24e-e8086221ca7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d24a947-e81d-44eb-b354-5d975a2493c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9a190d-09e4-4059-b366-b89b2aaba9c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f70a72f5-7169-4378-b429-719e89426454",
+      "comment": "",
+      "command": "click",
+      "target": "css=.common-tabs__nav-item:nth-child(5)",
+      "targets": [
+        ["css=.common-tabs__nav-item:nth-child(5)", "css:finder"],
+        ["xpath=//li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'Capital.com in the news')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "472aa6e9-aea7-40aa-84bd-08397398e6da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=France",
+      "targets": [
+        ["linkText=France", "linkText"],
+        ["css=.main__tab--item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'France')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[10]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'France')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42b96821-3418-4f02-a1f3-f5704fc84f1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Germany",
+      "targets": [
+        ["linkText=Germany", "linkText"],
+        ["css=.main__tab--item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Germany')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[11]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Germany')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bb0b4dc-ebac-4b59-bae9-1e181e45d873",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Italy",
+      "targets": [
+        ["linkText=Italy", "linkText"],
+        ["css=.main__tab--item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Italy')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[12]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Italy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a240ae7-c549-455b-a5a6-1593ffb4b8c9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Netherlands",
+      "targets": [
+        ["linkText=Netherlands", "linkText"],
+        ["css=.main__tab--item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Netherlands')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[13]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Netherlands')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2880873-604a-4040-918f-fb2274065791",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Poland",
+      "targets": [
+        ["linkText=Poland", "linkText"],
+        ["css=.main__tab--item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Poland')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[14]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Poland')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "972ee364-ece9-40cb-9517-4637541ed388",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Spain",
+      "targets": [
+        ["linkText=Spain", "linkText"],
+        ["css=.main__tab--item:nth-child(7)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Spain')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[15]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90ec0e34-104d-4020-92bf-dcbcdf866801",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sweden",
+      "targets": [
+        ["linkText=Sweden", "linkText"],
+        ["css=.main__tab--item:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sweden')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[16]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sweden')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e977ea2-a3a4-4d52-9fe6-c2f4670c807f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=United Kingdom",
+      "targets": [
+        ["linkText=United Kingdom", "linkText"],
+        ["css=.main__tab--item:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'United Kingdom')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/media-centre#')])[9]", "xpath:href"],
+        ["xpath=//div[5]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'United Kingdom')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ee93a2b-79e9-4453-809a-1a1eed815172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd7e35c6-a557-4fca-a665-27f52477bd24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc14fd82-9470-4fd4-9a48-0cfdab23556b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1910cc20-e91f-43de-940c-6548d097f9f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.common-tabs__nav-item:nth-child(6)",
+      "targets": [
+        ["css=.common-tabs__nav-item:nth-child(6)", "css:finder"],
+        ["xpath=//li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'Contact us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a685974e-6a0d-4d6e-86be-d13d4bd827ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "424a8924-c69f-4d69-b94e-da99cce7ef2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "994d12e5-f53f-481c-b81f-00413eae0524",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "993927dc-0049-420a-a326-12498c03a63e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Anti-money laundering",
+      "targets": [
+        ["linkText=Anti-money laundering", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .cc-nav__link:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Anti-money laundering')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/anti-money-laundering')]", "xpath:href"],
+        ["xpath=//div[5]/div/div/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Anti-money laundering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "752e1a39-0565-492d-94fe-2f42c5837577",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df6e888e-c03a-4b79-b8f7-b876505061d0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Account",
+      "targets": [
+        ["linkText=Open Account", "linkText"],
+        ["css=.button-main", "css:finder"],
+        ["xpath=//a[contains(text(),'Open Account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/signup')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2078d690-9f42-4097-a275-50a88f74988d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "04a245ce-3e55-4311-bd85-8df0744256a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "011dc04b-ca7b-484b-9c4a-973db35811b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d5c21a98-d367-4545-95d2-c1bc7209b922",
+    "name": "Help & Support",
+    "commands": [{
+      "id": "4c16036b-b5b5-4fc2-8c10-9634014b7b64",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3805b3b-e929-4fe0-990f-2eabb86591d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b0e9396-48eb-48f3-b586-2d1549003421",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-nav__item:nth-child(5) .grid:nth-child(2) strong",
+      "targets": [
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(2) strong", "css:finder"],
+        ["xpath=//div[5]/div/div[2]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Help & Support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f65b8cd-7370-48bd-b474-270ab9e5b46a",
+      "comment": "",
+      "command": "click",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "001ee6c2-8c7e-432c-b1bc-bfd5f5b13e91",
+      "comment": "",
+      "command": "type",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "invest"
+    }, {
+      "id": "edecaff3-b138-47f9-88d6-4e6ba410cf19",
+      "comment": "",
+      "command": "type",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "invest"
+    }, {
+      "id": "d3ac3e8b-dacc-4520-8fcb-b0d9f9c342fa",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=query",
+      "targets": [
+        ["id=query", "id"],
+        ["name=query", "name"],
+        ["css=#query", "css:finder"],
+        ["xpath=//input[@id='query']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7cc68a1d-bd35-4871-981f-1aec5fc05dd8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0a75407-2672-494d-b4cc-73ec4443cc1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(1) .supp-center__title",
+      "targets": [
+        ["css=.supp-center__item:nth-child(1) .supp-center__title", "css:finder"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2826",
+      "windowTimeout": 2000
+    }, {
+      "id": "f94243eb-449a-412b-8cec-b98d83194350",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a89703d-6e21-4cd0-8afc-32a7c79eadaf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2826}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "252e4657-2f6a-4f90-b26c-620c549186c5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65b21a15-ee08-4e6e-ad74-12530319fcc8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7f15e5e-4656-446c-8a40-25ac7af0c26b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(2) .supp-center__title",
+      "targets": [
+        ["css=.supp-center__item:nth-child(2) .supp-center__title", "css:finder"],
+        ["xpath=//a[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9754",
+      "windowTimeout": 2000
+    }, {
+      "id": "b9e8e2bd-cde4-4254-9bdc-68bbfac536ab",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9754}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0796caa4-f0b7-4885-b648-b69895b49480",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01e1a2ed-3d1f-4c44-9b48-027d3f580b09",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8efa61b-49d0-49e2-a04a-f25e115461e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(3) .supp-center__title",
+      "targets": [
+        ["css=.supp-center__item:nth-child(3) .supp-center__title", "css:finder"],
+        ["xpath=//a[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8067",
+      "windowTimeout": 2000
+    }, {
+      "id": "7c89d5c9-a7b0-43c0-a39a-feb0157188d1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8067}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8db146bd-9ed2-45e0-8de0-5e6d061bb47a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08734d26-337f-4a50-822e-db0181cb39a0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "241a2c2c-c996-4bc6-be35-c6c19007cf4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(4) > .supp-center__content",
+      "targets": [
+        ["css=.supp-center__item:nth-child(4) > .supp-center__content", "css:finder"],
+        ["xpath=//a[4]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8449",
+      "windowTimeout": 2000
+    }, {
+      "id": "73e2c65b-87ac-494b-936d-bb581c3539dc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8449}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a960e0e-1458-4f37-83d8-17b0cf1891d7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85f364bc-d949-4538-9475-8675fbaf338c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fa6c410-a8bd-4f6e-8a8a-d1ef689aff7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(5) > .supp-center__content",
+      "targets": [
+        ["css=.supp-center__item:nth-child(5) > .supp-center__content", "css:finder"],
+        ["xpath=//a[5]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8796",
+      "windowTimeout": 2000
+    }, {
+      "id": "de631e2e-2923-4f0d-9015-774cffcc73a7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8796}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69d49f92-49f5-43d1-8267-07488e6b14e5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41c3da52-890f-4baa-bcf1-965c42bd9a77",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dff0412-b297-4cf7-a2e9-de6912fbd509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.supp-center__item:nth-child(6) .supp-center__text",
+      "targets": [
+        ["css=.supp-center__item:nth-child(6) .supp-center__text", "css:finder"],
+        ["xpath=//a[6]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win477",
+      "windowTimeout": 2000
+    }, {
+      "id": "2b344921-27e2-45d0-bd79-87c0a53d5c40",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win477}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09e5aff2-a072-47a8-aeee-7514515859d3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c8321c2-36bb-4174-acbb-daa63c85f0ab",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a48577f-33d0-4cd8-9b18-6ed54cc70959",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badgeLink:nth-child(1) > .cc-icons",
+      "targets": [
+        ["css=.badgeLink:nth-child(1) > .cc-icons", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3510",
+      "windowTimeout": 2000
+    }, {
+      "id": "62f0a529-f650-40de-a77d-8badee5cb7ef",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3510}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5b6211f-dc8e-409e-9f70-b2279f743669",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9feeb739-482e-4eed-a132-f53bfbad5585",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d033a83-ec88-4d5c-887e-7bddb8a8194b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badgeLink:nth-child(3) > .cc-icons",
+      "targets": [
+        ["css=.badgeLink:nth-child(3) > .cc-icons", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7371",
+      "windowTimeout": 2000
+    }, {
+      "id": "24b38caa-823e-4dcf-b78c-07a1b56fbcd3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7371}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59f66f14-7339-4ff2-94f9-59a2134e28d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91b70c4e-f16d-4271-b6bb-839d3b301fb7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "07ab944c-7d23-4fcb-bf8d-6ca372b19687",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "77c1aef4-c178-4d9c-bc3c-57bf4a7dcacc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7402895-6bf0-4d0b-b014-a6a1c546c348",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Support",
+      "targets": [
+        ["linkText=Support", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(2) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capitalasic.zendesk.com/hc/en-us')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8874",
+      "windowTimeout": 2000
+    }, {
+      "id": "82c2e1c8-58f7-41de-828a-5e69b50b9882",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8874}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77081619-d747-40f0-9024-6b29b7708dc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A col-6:nth-child(1) .not-a-button",
+      "targets": [
+        ["css=.md\\3A col-6:nth-child(1) .not-a-button", "css:finder"],
+        ["xpath=//ul[@id='categories']/li/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71d109de-daab-42af-b00c-1399bc9ee55b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-180",
+      "targets": [
+        ["css=.rotate-180", "css:finder"],
+        ["xpath=//ul[@id='categories']/li/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7da0e2bc-e41b-45b5-9da0-f376eebf2dec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A col-6:nth-child(2) .not-a-button",
+      "targets": [
+        ["css=.md\\3A col-6:nth-child(2) .not-a-button", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[2]/div/button", "xpath:idRelative"],
+        ["xpath=//li[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "279d8283-61ee-465d-9a19-d48349a1b600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-180",
+      "targets": [
+        ["css=.rotate-180", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[2]/div/button", "xpath:idRelative"],
+        ["xpath=//li[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06b2f0e1-0cfc-4279-8a7f-427cfbedcd34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A col-6:nth-child(3) .not-a-button",
+      "targets": [
+        ["css=.md\\3A col-6:nth-child(3) .not-a-button", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[3]/div/button", "xpath:idRelative"],
+        ["xpath=//li[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94ed139-460b-4597-80e6-70e8e76d6edc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-180",
+      "targets": [
+        ["css=.rotate-180", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[3]/div/button", "xpath:idRelative"],
+        ["xpath=//li[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "86ed1211-bb35-4ee1-ba86-3983d9b6437a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A col-6:nth-child(4) .not-a-button",
+      "targets": [
+        ["css=.md\\3A col-6:nth-child(4) .not-a-button", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[4]/div/button", "xpath:idRelative"],
+        ["xpath=//li[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63ef10f7-bf43-4b64-8760-31d6ab3a8d18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-180",
+      "targets": [
+        ["css=.rotate-180", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[4]/div/button", "xpath:idRelative"],
+        ["xpath=//li[4]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5397a65b-0c67-45f5-8fa8-0f6ab917063d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.md\\3A col-6:nth-child(5) .not-a-button",
+      "targets": [
+        ["css=.md\\3A col-6:nth-child(5) .not-a-button", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[5]/div/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e64f431-43d7-41a6-be6c-11bb3555d62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rotate-180",
+      "targets": [
+        ["css=.rotate-180", "css:finder"],
+        ["xpath=//ul[@id='categories']/li[5]/div/button", "xpath:idRelative"],
+        ["xpath=//li[5]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3904fdd2-2824-4447-8b29-48d3a3c7c3ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-primary",
+      "targets": [
+        ["css=.button-primary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Submit a request')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/hc/en-us/requests/new')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5791f130-0650-42f2-b99b-76947c7d8d26",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a650f36b-8654-462e-bbca-e33ffe29ea16",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7fbfbe34-b8dd-4a7a-99f8-29c0cc6aaf93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9708d4e6-620d-4a2a-bfef-c27326928229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "51b23bcf-cbf7-402a-9918-e4a2955250f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Support",
+      "targets": [
+        ["linkText=Support", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(2) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Support')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capitalasic.zendesk.com/hc/en-us')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5244",
+      "windowTimeout": 2000
+    }, {
+      "id": "1539ec92-0d09-454a-a488-0ef165e19669",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5244}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e73bf82-b6bf-41f1-9ea5-c5653645bf7f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b430824c-1b14-4388-93dc-d778d2ea8a9d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f293c384-1755-4a49-832c-68346bd8c1fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Capital System status",
+      "targets": [
+        ["linkText=Capital System status", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(2) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Capital System status')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/system-health')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[2]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Capital System status')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90860217-b984-465c-8cf9-5060bd2d9dc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58026da3-2385-4790-af84-82f6ab6df1d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "20795bf4-1b0a-4d20-8274-0c855dab8c56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complaints",
+      "targets": [
+        ["linkText=Complaints", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(2) > .cc-nav__link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Complaints')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/complaints')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[2]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Complaints')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef8f4f5c-9875-4d09-a006-b694a8656f61",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Complaints Procedure (ASIC)",
+      "targets": [
+        ["linkText=Complaints Procedure (ASIC)", "linkText"],
+        ["css=li > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Complaints Procedure (ASIC)')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/complaints-procedure-asic')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Complaints Procedure (ASIC)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a3a94bb-5093-4f77-aedd-16ab849a5f54",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53ffd948-f494-466c-b464-0e86dafd9612",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//u[contains(.,'support centre')]",
+      "targets": [
+        ["css=u", "css:finder"],
+        ["xpath=//u", "xpath:position"],
+        ["xpath=//u[contains(.,'support centre')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39074fb8-b6ad-4761-ac60-e8b56272d960",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e1cdc30-594a-4949-a719-9e7de178e4ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-contacts",
+      "targets": [
+        ["id=submit-contacts", "id"],
+        ["css=#submit-contacts", "css:finder"],
+        ["xpath=//button[@id='submit-contacts']", "xpath:attributes"],
+        ["xpath=//form[@id='contactFrm']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "620125a3-56ac-460c-b83c-0251a077b799",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup use",
+      "targets": [
+        ["css=.js_signup use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a4d59d6-fe4f-4108-93e9-c8b838c0449b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1536d0e9-8fb3-4b01-bb8f-d0dea1277917",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0993a0d8-64f2-40cd-a2f6-f9c02167e000",
+    "name": "Partner with us",
+    "commands": [{
+      "id": "1bbd6073-e1fb-4228-b292-7d41000babc6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d7b81a2-725c-4294-8176-77c0eafaccc9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de58821b-088d-4728-8516-fbbdbbecc4bf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#license-diff-notice-btn use",
+      "targets": [
+        ["css=#license-diff-notice-btn use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "93e738ac-8142-41fb-aeaf-495b30f76e0c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/about-us')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3974a17-529d-406f-8df1-fdfa59fbd916",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=More",
+      "targets": [
+        ["linkText=More", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'More')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/about-us')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06818aa-99af-4de4-9cc6-a15ce3aaf4c6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Partnership Programme",
+      "targets": [
+        ["linkText=Partnership Programme", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(3) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Partnership Programme')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/partnership-programme-lp')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Partnership Programme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53ccb455-faa6-4d37-9a62-907d89937f5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open account",
+      "targets": [
+        ["linkText=Open account", "linkText"],
+        ["css=.banner__item > .button-main", "css:finder"],
+        ["xpath=//a[contains(text(),'Open account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/affiliate/signup')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39e0d59a-3136-4f85-9243-097f0f50510d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "079a4c5b-ad5d-45a4-8675-e3a3b856b40e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Open account')])[2]",
+      "targets": [
+        ["css=.comission > .button-main", "css:finder"],
+        ["xpath=(//a[contains(text(),'Open account')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/affiliate/signup')])[2]", "xpath:href"],
+        ["xpath=//section/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a036379b-5b50-40a5-80fb-ac3a55c6dd72",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "baa46d1f-b4c0-4a66-bc51-de3df06c7fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details/summary", "xpath:idRelative"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which countries are restricted?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d371ae18-2b71-478a-8869-c8104fd5a398",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details/summary", "xpath:idRelative"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which countries are restricted?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c525f810-da7c-494c-ac21-a751d28489f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[2]/summary", "xpath:idRelative"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the minimum requirements for traffic sources?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "674b122f-5f06-4581-9882-2b08d7e3560e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[2]/summary", "xpath:idRelative"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the minimum requirements for traffic sources?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c71b40b-2ee2-43a9-a92b-fdc1847f5735",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[2]/summary", "xpath:idRelative"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the minimum requirements for traffic sources?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9061103-c83d-4399-9309-4dadcc858bfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[3]/summary", "xpath:idRelative"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which documents and information do I need to supply to be approved as an affiliate?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72d1db68-74ad-41f6-8e8e-928ba4c4d462",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[3]/summary", "xpath:idRelative"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which documents and information do I need to supply to be approved as an affiliate?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f45cdbf-1c62-4419-90fb-6cd56a7b146a",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[3]/summary", "xpath:idRelative"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which documents and information do I need to supply to be approved as an affiliate?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0934ad5-6612-403f-9c26-c4335b6b99ae",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[4]/summary", "xpath:idRelative"],
+        ["xpath=//details[4]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2abbfa92-d60e-4bbf-bf12-95455399490b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[4]/summary", "xpath:idRelative"],
+        ["xpath=//details[4]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d789f5-9881-42c3-8c42-862221839973",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[4]/summary", "xpath:idRelative"],
+        ["xpath=//details[4]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed29da9-d5a7-4ec6-9a22-51b82cdd4fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) h3", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[5]/summary/h3", "xpath:idRelative"],
+        ["xpath=//details[5]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Where I can find information about my manager?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b07f68b-b290-4340-a55f-86da0277709a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) h3", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[5]/summary/h3", "xpath:idRelative"],
+        ["xpath=//details[5]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Where I can find information about my manager?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "477380b0-7423-473a-952c-99a6c98c934e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[6]/summary", "xpath:idRelative"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What is the minimum sum of commission available for withdrawal?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3127076-cca3-421e-88d7-cc353a574ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[6]/summary", "xpath:idRelative"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What is the minimum sum of commission available for withdrawal?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d13d689c-fe5b-4bc7-8290-5f4d7b4f1a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(7) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(7) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[7]/summary", "xpath:idRelative"],
+        ["xpath=//details[7]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How often commission is paid?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1376613b-a47c-47c2-8b2c-d557bcc908d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(7) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(7) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[7]/summary", "xpath:idRelative"],
+        ["xpath=//details[7]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How often commission is paid?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd92c145-925a-4214-991e-2323a0fc0da3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(8) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(8) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[8]/summary", "xpath:idRelative"],
+        ["xpath=//details[8]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the payment options available to withdraw affiliate commission?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe91312f-0fef-4266-9714-b656e333bf9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(8) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(8) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[8]/summary", "xpath:idRelative"],
+        ["xpath=//details[8]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the payment options available to withdraw affiliate commission?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d4a8f34-286d-44c7-bb69-6bcce9ad870b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[3]/summary", "xpath:idRelative"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which documents and information do I need to supply to be approved as an affiliate?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c130a11c-918d-4d70-9509-79bd7ac75e83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[3]/summary", "xpath:idRelative"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Which documents and information do I need to supply to be approved as an affiliate?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe261a31-5d3c-427c-896b-dbd445ed9b71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[2]/summary", "xpath:idRelative"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the minimum requirements for traffic sources?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce0cb8f-80f1-4994-99df-d3d56fd9d25d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[2]/summary", "xpath:idRelative"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the minimum requirements for traffic sources?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83247387-b55f-4b71-b2f0-2277e8f40d5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//section[@id='faq']/div/div/details[4]/summary", "xpath:idRelative"],
+        ["xpath=//details[4]/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "642af8ee-bf6c-401e-b1f5-c53b59006452",
+      "comment": "",
+      "command": "click",
+      "target": "id=scrollToTop",
+      "targets": [
+        ["id=scrollToTop", "id"],
+        ["css=#scrollToTop", "css:finder"],
+        ["xpath=//div[@id='scrollToTop']", "xpath:attributes"],
+        ["xpath=//div[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9860ee66-73d5-4e03-b6d0-b326a410a8d3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Partnership Programme",
+      "targets": [
+        ["linkText=Partnership Programme", "linkText"],
+        ["css=.cc-nav__item:nth-child(5) .grid:nth-child(3) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Partnership Programme')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/partnership-programme-lp')]", "xpath:href"],
+        ["xpath=//div[5]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Partnership Programme')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b73a96-3a90-4118-b96b-36a966dbde91",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3950)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "33cc07cc-dff1-435a-9344-9db6763c1331",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "53634357-b1fb-4f31-ba7d-7552ca0e3bf1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["58e6b29b-9e82-4590-bff1-dcc1cfdbba4a"]
+  }],
+  "urls": ["https://capital.com/"],
+  "plugins": []
+}

@@ -1,0 +1,1434 @@
+{
+  "id": "116e849a-f541-4fab-a239-72e6a97b3bf1",
+  "version": "2.0",
+  "name": "Smoke_Menu_News_and_Analysis",
+  "url": "https://capital.com/",
+  "tests": [{
+    "id": "2dd67bfa-df8f-4096-b3f6-5809770c4cdd",
+    "name": "News and Analysis",
+    "commands": [{
+      "id": "5a896dfb-fedc-44a9-bb79-2ed7b6954710",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed713bd0-7135-4d8a-a5e3-ba6e31b39c90",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7e6cf246-05b2-4bb6-80e6-1fe426919728",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3762c40-5613-4243-83e0-f6b43c3ccd21",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96f4dd98-ca4c-4824-ba6d-7441a6b7af1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active > .js-langName",
+      "targets": [
+        ["css=.active > .js-langName", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "473f856d-19a5-4e5e-a9ba-d66b32670e97",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda91d9e-d5d0-4aef-9f8e-816040e12db1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02ef4a6-44cf-4382-90a6-2e0e39bfcd77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldDropdown__control--hidden",
+      "targets": [
+        ["css=.fieldDropdown__control--hidden", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "996fc7f8-1f6b-42e5-afa2-e38698472556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24f3b30-37b4-4b6c-bc9e-bca02996dd0d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "aus"
+    }, {
+      "id": "d157091e-ec91-4816-9a9a-cdabcd750e08",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Australia')]",
+      "targets": [
+        ["css=li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Australia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a450794-277c-481f-92ef-7eee94acb85d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News and Analysis",
+      "targets": [
+        ["linkText=News and Analysis", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'News and Analysis')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/financial-news-articles')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News and Analysis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7491efda-7cc6-46aa-aea8-2b0d60f1b0e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded",
+      "targets": [
+        ["css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded", "css:finder"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbd242e9-c633-4c29-903b-015634bee172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded",
+      "targets": [
+        ["css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded", "css:finder"],
+        ["xpath=//div[2]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af173a96-62fa-44aa-8c3d-deb9e14f4d53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded",
+      "targets": [
+        ["css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded", "css:finder"],
+        ["xpath=//div[3]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1adb7850-b1a3-433b-8c84-b8908e52d609",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded",
+      "targets": [
+        ["css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded", "css:finder"],
+        ["xpath=//div[4]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53cf6d3f-9db8-496b-a5c3-c87c6b9b342f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded",
+      "targets": [
+        ["css=.mostTraded__box--expanded .js-instruments-widget-chart-mostTraded", "css:finder"],
+        ["xpath=//div[5]/div[2]/canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29cd0ae0-c4ee-4952-a0cc-2aef146d1e6c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .mostTraded__btn",
+      "targets": [
+        ["css=.mostTraded__box--expanded .mostTraded__btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trade')])[3]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/platform/spotlight/427748677997764?side=buy')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ceb682-fc53-499e-b7c3-b4edb3e3b62e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6946ccc-0d2d-45e6-a1e0-f0f7f8a71e90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .mostTraded__btn",
+      "targets": [
+        ["css=.mostTraded__box--expanded .mostTraded__btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trade')])[4]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/platform/spotlight/27045129890124996?side=buy')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa23acfe-b650-4204-b0a9-0152c3b1b681",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel use",
+      "targets": [
+        ["css=.l_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "44f09e10-d198-42b5-be63-d69a43eba152",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .mostTraded__btn",
+      "targets": [
+        ["css=.mostTraded__box--expanded .mostTraded__btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trade')])[5]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/platform/spotlight/15839732013552836?side=buy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "916f21c2-1f45-4ef4-a122-281ef3378288",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "075772db-f65d-47e8-89d1-b995aedc8c91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .mostTraded__btn",
+      "targets": [
+        ["css=.mostTraded__box--expanded .mostTraded__btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trade')])[6]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/platform/spotlight/426090820621508?side=buy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1103e7-f3cf-456e-b000-0eaa58c5ea26",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel use",
+      "targets": [
+        ["css=.l_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8246ceef-e30c-473e-9af3-84a2c5310016",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mostTraded__box--expanded .mostTraded__btn",
+      "targets": [
+        ["css=.mostTraded__box--expanded .mostTraded__btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Trade')])[7]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/platform/spotlight/2604592722433220?side=buy')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a64f82c-92af-4c20-a5e7-a6007671dfba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e045ba0b-8c2f-4c32-ba4b-a1d91215dbe0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Oil - Crude",
+      "targets": [
+        ["linkText=Oil - Crude", "linkText"],
+        ["css=.mostTraded__box--expanded .textSub", "css:finder"],
+        ["xpath=//a[contains(text(),'Oil - Crude')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/us-crude-oil-price')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Oil - Crude')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fde82dd3-b931-433e-a9d5-aad2d5c2d6df",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e12322b5-3749-47e7-9ea4-e603d6980169",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f46dd5e7-24e0-4daa-a7d3-2b5191fda7ac",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3450)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad917a27-594c-4fb6-a2aa-ad350bfb6ce6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22188c23-24b6-44b6-9afa-96913194c739",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.s2_btn",
+      "targets": [
+        ["css=.s2_btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='s_overlay']/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2950f26c-14b1-48cc-a632-cd03930c6627",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.s2_btn",
+      "targets": [
+        ["css=.s2_btn", "css:finder"],
+        ["xpath=(//button[@type='submit'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='s_overlay']/div/div[2]/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00b3e94d-b641-4931-9385-0ba1feb79571",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d584b74b-ac1e-4a60-924d-27c15a244659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "af90e79c-9f58-4cd5-a020-916ebb5bbc82",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0436b07-e383-463d-b836-511c8d3d5e16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "36621ecf-f645-4e22-aa39-8d98d791a1e2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Economics",
+      "targets": [
+        ["linkText=Economics", "linkText"],
+        ["css=.subnav__link:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Economics')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/economic-business-news')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73220c2f-572b-4f77-ad0c-4c6129531ac2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed9e2137-1918-45e1-b7be-b5e495f2dce5",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) > .table__eventname",
+      "targets": [
+        ["css=tr:nth-child(2) > .table__eventname", "css:finder"],
+        ["xpath=//td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd3ee3a-0d55-4c44-bf80-730b5e84d2ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=li:nth-child(2) > .ln-auto", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[3]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'economic-business-news/2')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a53b20bf-f35f-4289-b0fa-c7185115b05b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a429a9b-6792-4afc-bb75-e1ca1d72ff07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4de31ab-9a08-406b-8ea6-1db1b66f5888",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cde0148c-0396-4307-ad85-82b1c2136c51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "09e604f5-fa76-4daa-b171-4010d8840ff2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stocks",
+      "targets": [
+        ["linkText=Stocks", "linkText"],
+        ["css=.subnav__link:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Stocks')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/stock-market-news')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0f1f8db-910d-4ac5-93c3-60aa53b43902",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3226)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec4a76b1-71c5-4191-a638-026d8d044911",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "01d649ef-8b54-4be3-bec0-3a77e8560706",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "984e668c-8c6b-44fe-816b-9e28beb1df3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea412c20-d13a-4d18-9dd4-cbe46036bcf3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Indices",
+      "targets": [
+        ["linkText=Indices", "linkText"],
+        ["css=.subnav__link:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Indices')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/indices-news')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c12e0a5-cab7-452b-b0ab-54c86fedee84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "738a17ca-311c-47a1-8a7e-5ad702f94183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1956130-919c-49b4-aa0a-528e4cff2e20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b40661d2-b9ee-4f62-84ce-c74c2a1244ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Forex",
+      "targets": [
+        ["linkText=Forex", "linkText"],
+        ["css=.subnav__link:nth-child(5)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Forex')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/all-forex-news')])[2]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1cbb890-49eb-4f9f-be33-0b2fddb26ec7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "92db7158-d242-4bb7-b85b-827c45089102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a773dc6-23dd-4200-9a84-9c865b348a8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1c784f-5024-4777-9483-594c8f001109",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Commodities",
+      "targets": [
+        ["linkText=Commodities", "linkText"],
+        ["css=.subnav__link:nth-child(6)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Commodities')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/commodities-news')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "901ef0f0-65a3-489f-bf40-fe53bcce8e9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe709023-4295-44ba-b59e-c40012781576",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ae56092-0025-4e8d-9525-9041f0500634",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b0afbfb-fa8c-46ee-a05f-cf29fc0b3603",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cryptocurrencies",
+      "targets": [
+        ["linkText=Cryptocurrencies", "linkText"],
+        ["css=.subnav__link:nth-child(7)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cryptocurrencies')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/analysis-cryptocurrencies')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f568a711-fbc7-412b-8547-1f0a10640e68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0baca8f-c671-41c1-9626-d8c01aa0c410",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e21a4e-ee90-48cd-9def-fac78bfd663c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=4", "linkText"],
+        ["css=li:nth-child(4) > .ln-auto", "css:finder"],
+        ["xpath=(//a[contains(text(),'4')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'analysis-cryptocurrencies/4')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffc0ff63-3da3-459f-b0c8-47d6c7356989",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Video",
+      "targets": [
+        ["linkText=Video", "linkText"],
+        ["css=.subnav__link:nth-child(8)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Video')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/video-articles')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/a[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ad7aa6a-0ec8-4440-95cf-9d26afc5fe9b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=li:nth-child(2) > .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'2')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'video-articles/2')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdad66ae-ce94-4e1f-92c8-39c1447c8bc6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,700)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc8dc3d9-6781-4730-b25c-802ab280f1b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create account",
+      "targets": [
+        ["linkText=Create account", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Create account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//section/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5a9081c-536c-4870-a641-8d47248bedc6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ada10af-01d1-4695-914a-74d1e4aed4fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section[2]/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b2e907-9d0e-4ed6-9ace-3fa883a3df35",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c474ba-f395-4190-96b4-dbc401897f92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d05dd023-24a8-4e8b-a9e8-84f78553a6fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb5e0941-1871-4e1b-9ab6-38a80c058367",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=News and Analysis",
+      "targets": [
+        ["linkText=News and Analysis", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'News and Analysis')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/financial-news-articles')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News and Analysis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6ed74d9-489d-4fb5-ba1f-0122fd6b9f2e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=News and Analysis",
+      "targets": [
+        ["linkText=News and Analysis", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'News and Analysis')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/financial-news-articles')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News and Analysis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93818465-a627-49ed-8a4c-57cbbe19e97b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Data journalism",
+      "targets": [
+        ["linkText=Data journalism", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) .cc-nav__link:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Data journalism')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/data-journalism')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Data journalism')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1a87864-9441-4460-ad43-5715f4d55230",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__control:nth-child(2)",
+      "targets": [
+        ["css=.tabs__control:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Cryptocurrency Data')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d8e0ec-eb78-407d-ad5d-5d1e8659d77a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__control:nth-child(3)",
+      "targets": [
+        ["css=.tabs__control:nth-child(3)", "css:finder"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Stock Data')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b098c42-8ffc-4fe2-9795-f18cb30804c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__control:nth-child(4)",
+      "targets": [
+        ["css=.tabs__control:nth-child(4)", "css:finder"],
+        ["xpath=//li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Sentiments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fe6270a-9f0f-4680-bd51-e0df40ed4f24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__control:nth-child(1)",
+      "targets": [
+        ["css=.tabs__control:nth-child(1)", "css:finder"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34836535-cb00-497c-a908-13a972146fa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b66cdcd6-9188-4a20-8389-f263e2913ad8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9544d792-28b1-453a-8933-259a226152cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Economic calendar",
+      "targets": [
+        ["linkText=Economic calendar", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) .grid:nth-child(2) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Economic calendar')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/economic-calendar')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Economic calendar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cce585a-c0dc-4017-94c4-80a88bd97c7a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start Trading Now",
+      "targets": [
+        ["linkText=Start Trading Now", "linkText"],
+        ["css=.btn--darkText:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start Trading Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Trading Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1eb0ef99-31da-4627-b687-8fc7819280df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "575b79ef-deb8-4b68-913f-32824b532c78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9255269-9e5c-409c-a2f5-1afc8119d077",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(2)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Earnings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "905a4442-243c-4fa0-af41-f55e4d47ba14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(3)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Dividends')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcbd6883-b759-427c-ba22-962b1be6d03f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(4)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'Splits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c57050-6f50-4517-b09d-ac81d532b78f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(5)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(5)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'IPO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44c3935d-e9d9-45db-9b1f-e5fafef988eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(6)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(6)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li[6]", "xpath:idRelative"],
+        ["xpath=//li[6]", "xpath:position"],
+        ["xpath=//li[contains(.,'Holidays')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fe3bb89-acc4-4e7b-9fd4-6a7707bed4ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-mainTabs:nth-child(1)",
+      "targets": [
+        ["css=.js-mainTabs:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"],
+        ["xpath=//li[contains(.,'Economic')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c778811-2ca6-4590-a215-161fc50e0cf8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-filterDate:nth-child(1)",
+      "targets": [
+        ["css=.js-filterDate:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Yesterday')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dab3377-f6fe-4c9b-99af-3c70c5bb4136",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-filterDate:nth-child(2)",
+      "targets": [
+        ["css=.js-filterDate:nth-child(2)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Today')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1319f9df-f78e-4bdb-b104-20db7fbc51f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-filterDate:nth-child(3)",
+      "targets": [
+        ["css=.js-filterDate:nth-child(3)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'Tomorrow')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18bb05cc-01a6-457b-b611-9bce3ffe8897",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-filterDate:nth-child(4)",
+      "targets": [
+        ["css=.js-filterDate:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div/ul/li[4]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'This Week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7994108-b79a-4712-9fd0-d1b627ab8362",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-filterDate:nth-child(5)",
+      "targets": [
+        ["css=.js-filterDate:nth-child(5)", "css:finder"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div/ul/li[5]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'Next Week')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc21c296-25ab-4479-8a07-729ee7f5e571",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs__control--icon > .cc-icons",
+      "targets": [
+        ["css=.tabs__control--icon > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "92ad27e2-724f-4b08-9a32-b6efca4f7efa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-submit-form",
+      "targets": [
+        ["css=.js-submit-form", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "468a87e8-c3c1-4099-933a-4f321bfa8e48",
+      "comment": "",
+      "command": "click",
+      "target": "id=ecCalendarFilters",
+      "targets": [
+        ["id=ecCalendarFilters", "id"],
+        ["css=#ecCalendarFilters", "css:finder"],
+        ["xpath=//li[@id='ecCalendarFilters']", "xpath:attributes"],
+        ["xpath=//form[@id='ecCalendarForm']/div[2]/div[2]/div/ul/li", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Filters')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b86668-87a1-4901-ab43-d0f49c54f947",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(1) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(1) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e1dbf67-07a2-4476-b154-89269343eb2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(5) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(5) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36b52b88-0100-45c6-9823-48467b3550e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(9) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(9) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div[9]/label", "xpath:idRelative"],
+        ["xpath=//div[9]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c523cac-f767-4edd-861b-772ab02aecb0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(9) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(9) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div[9]/label", "xpath:idRelative"],
+        ["xpath=//div[9]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d88bd107-4d1c-47a8-a5de-b950c04d6c3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(5) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(5) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div[5]/label", "xpath:idRelative"],
+        ["xpath=//div[5]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d736d39e-9fb6-4674-8121-2989eec0db32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesHidden:nth-child(1) > .ecFilters__label",
+      "targets": [
+        ["css=.js-countriesHidden:nth-child(1) > .ecFilters__label", "css:finder"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div[2]/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edd0243a-14a9-4230-b593-08282a6660ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-select-all-countries",
+      "targets": [
+        ["css=.js-select-all-countries", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div/button", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Select All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d22ab26e-1dc9-4662-b14a-a57549de0670",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-clear-all-countries",
+      "targets": [
+        ["css=.js-clear-all-countries", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='ecCalendarFormCountry']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Clear All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "53c21f6c-d2fa-46ef-a5f9-a7b6103a554a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons:nth-child(2) > use",
+      "targets": [
+        ["css=.cc-icons:nth-child(2) > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c861ee3-8884-4809-9c5b-6b010c06b557",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb1bd223-8352-47b5-a465-8944eb81c4c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd055f1d-ca16-46f7-bda0-a6efb41320ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f0384a0-7a18-47ca-b2ef-0cc9c07ed99e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TradingView News",
+      "targets": [
+        ["linkText=TradingView News", "linkText"],
+        ["css=.cc-nav__item:nth-child(4) .grid:nth-child(3) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'TradingView News')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.tradingview.com/key-events/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TradingView News')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3071",
+      "windowTimeout": 2000
+    }, {
+      "id": "37aa29af-4a51-474e-afac-9cf3ea0d5940",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f148cb8-ce77-4342-aadd-2676db2b1398",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3071}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82cb29b7-dc07-45db-83ef-87aca9a0a7ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All",
+      "targets": [
+        ["linkText=All", "linkText"],
+        ["css=.tab-J4T7wK54:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c027735-55f0-46da-9ecd-c14d577d6714",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-J4T7wK54:nth-child(2) > .content-FujgyDpN",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(2) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Top Stories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22eb27ac-43ab-47a9-ba87-2d2cbe7970df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-J4T7wK54:nth-child(3) > .content-FujgyDpN",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(3) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[3]/span", "xpath:idRelative"],
+        ["xpath=//a[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Stocks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "214140ce-fafc-41e8-9bff-b6bd3ed81d27",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-J4T7wK54:nth-child(4) > .content-FujgyDpN",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(4) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[4]/span", "xpath:idRelative"],
+        ["xpath=//a[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Crypto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "398993d9-d344-4fbc-9c97-743265f44d0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-J4T7wK54:nth-child(5) > .content-FujgyDpN",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(5) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[5]/span", "xpath:idRelative"],
+        ["xpath=//a[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Forex')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0158b44e-3437-457d-b3b2-144b6860fabc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tab-J4T7wK54:nth-child(6) > .content-FujgyDpN",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(6) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[6]/span", "xpath:idRelative"],
+        ["xpath=//a[6]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Indices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d120e90-635d-4e8a-8438-f03f826b46c0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Futures",
+      "targets": [
+        ["linkText=Futures", "linkText"],
+        ["css=.tab-J4T7wK54:nth-child(7)", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/?market=futures')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Futures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be66d724-5f3a-4508-bcd1-eb796c0113b8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bonds",
+      "targets": [
+        ["linkText=Bonds", "linkText"],
+        ["css=.tab-J4T7wK54:nth-child(8)", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/news/?market=bond')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Bonds')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4fead02-c5a9-4ebd-942c-8006e9c0df2f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'World economy')]",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(9) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[9]/span", "xpath:idRelative"],
+        ["xpath=//a[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'World economy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fb1e5d9-bd23-41e8-a163-f399bb4b09da",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'All')]",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(1) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff52aa2-3a9c-4496-b743-3be571766759",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Top Stories')]",
+      "targets": [
+        ["css=.tab-J4T7wK54:nth-child(2) > .content-FujgyDpN", "css:finder"],
+        ["xpath=//div[@id='tv-content']/div/div/div/div/div[2]/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Top Stories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3765404-a92c-4ea2-9b43-17b2759194de",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5612d40-1036-4484-84d7-94dc70a10c3f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7480734e-fd9a-46ec-a60b-03446c516f70",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e9b5eb-5d9f-47eb-97e8-023eae254a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1a0d914e-ff85-4e0b-a16b-7a496b0984ea",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2dd67bfa-df8f-4096-b3f6-5809770c4cdd"]
+  }],
+  "urls": ["https://capital.com/"],
+  "plugins": []
+}

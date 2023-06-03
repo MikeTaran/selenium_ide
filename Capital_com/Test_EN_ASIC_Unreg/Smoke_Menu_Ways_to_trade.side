@@ -1,0 +1,4083 @@
+{
+  "id": "5862c49f-f5af-42d9-8736-a7df6b644201",
+  "version": "2.0",
+  "name": "Smoke_Menu_Ways_to_trade",
+  "url": "https://capital.com/",
+  "tests": [{
+    "id": "1a951bbc-c922-47c6-8ec0-1b5e92f9eb77",
+    "name": "1. CFD Traiding",
+    "commands": [{
+      "id": "a7f5b5c7-ce97-4372-a705-ee6d1a57eda6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba563b3c-c979-4633-b5a0-b42c1cb45b3f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "153f64b1-b420-40e4-a6c1-adbfb2e13fe1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970b8c18-32f5-473a-b0fd-f7bff5b7a696",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c09c190-d7ad-4428-8eea-6f406e65e7da",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'English')]",
+      "targets": [
+        ["css=.active > .js-langName", "css:finder"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc03a15-e7d0-4f8f-b29e-f7529bd9e3b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8a3b83c-3198-4355-b12f-7c937d04dd44",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.licLangSw__btn",
+      "targets": [
+        ["css=.licLangSw__btn", "css:finder"],
+        ["xpath=//div[@type='button']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87b3abdf-2e0d-465c-b38f-fac189d86abb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldDropdown__control--hidden",
+      "targets": [
+        ["css=.fieldDropdown__control--hidden", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de5af5da-8db1-4942-a01a-c56d48cbcb96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61cba4e8-04ea-4c45-94f0-7a7f9a7d803d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.js-countriesSearchInput",
+      "targets": [
+        ["css=.js-countriesSearchInput", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "aus"
+    }, {
+      "id": "5a9fc56a-3f7a-4d99-86e2-135469dc5f29",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Australia')]",
+      "targets": [
+        ["css=li:nth-child(1) span:nth-child(2)", "css:finder"],
+        ["xpath=//a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Australia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f539d31-1114-4f5b-b50d-27d6faa529a0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CFD trading",
+      "targets": [
+        ["linkText=CFD trading", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(1) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'CFD trading')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/cfd-trading')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59651556-f8d3-4a93-ba65-dbd6986b409e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open Account",
+      "targets": [
+        ["linkText=Open Account", "linkText"],
+        ["css=.btn--darkText:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Open Account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52a08b33-c0a1-471a-8054-e04babe71ed0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0492ac00-80f2-4ee3-9b05-d0697ca85ace",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e384fd79-52e9-4ff0-a731-e2728e18d8e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__nav > button:nth-child(2)",
+      "targets": [
+        ["css=.tabsDrop__nav > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Commodities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f188a4c-588a-4c68-b2de-0323df093b17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__nav > button:nth-child(3)",
+      "targets": [
+        ["css=.tabsDrop__nav > button:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Indices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f4a941e-385a-4e0d-b4fe-ec5b02de786c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__nav > button:nth-child(4)",
+      "targets": [
+        ["css=.tabsDrop__nav > button:nth-child(4)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Cryptocurrencies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf769541-9f35-4ff5-ac5a-5c975ed7f896",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__nav > button:nth-child(5)",
+      "targets": [
+        ["css=.tabsDrop__nav > button:nth-child(5)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'Shares')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08965c93-2cf9-4b65-83a9-9b99a3836409",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__trigger",
+      "targets": [
+        ["css=.tabsDrop__trigger", "css:finder"],
+        ["xpath=//div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b5fb076-738c-4008-99fa-322b9809f2e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-boxMd > button:nth-child(1)",
+      "targets": [
+        ["css=.cc-boxMd > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//button/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d344423-7fba-4c9c-ad58-a9511e6ced1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-boxMd > button:nth-child(2)",
+      "targets": [
+        ["css=.cc-boxMd > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[9]", "xpath:attributes"],
+        ["xpath=//button/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c0e0742-5547-4512-903f-e97e2f20d77a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__trigger",
+      "targets": [
+        ["css=.tabsDrop__trigger", "css:finder"],
+        ["xpath=//div/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2201af5-9137-4cd4-ba6a-7daa3275ce81",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabsDrop__nav > button:nth-child(1)",
+      "targets": [
+        ["css=.tabsDrop__nav > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Most traded')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2dca3d3-9f54-46b6-bd65-9a8a446fa325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(1)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(1)", "css:finder"],
+        ["xpath=//div/div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'1m')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eecb4392-a827-4f1c-a9b8-be2af0f3d9e9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(2)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'5m')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20ea051-d838-4df3-9d93-fc48ce5b364d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(3)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(3)", "css:finder"],
+        ["xpath=//div[2]/div/button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'15m')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b322679-6b73-4f03-951d-3e1696a1d7ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(4)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(4)", "css:finder"],
+        ["xpath=//div[2]/div/button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'30m')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8e37e61-7957-4d8c-b090-aee7050fac48",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(5)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(5)", "css:finder"],
+        ["xpath=//div[2]/div/button[5]", "xpath:position"],
+        ["xpath=//button[contains(.,'1h')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbde0eba-9535-4333-ba02-1707f78e9aa4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.marketChart__dur > button:nth-child(6)",
+      "targets": [
+        ["css=.marketChart__dur > button:nth-child(6)", "css:finder"],
+        ["xpath=//button[6]", "xpath:position"],
+        ["xpath=//button[contains(.,'4h')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b09617-8504-4aea-a641-10e34fd48f69",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(7)",
+      "targets": [
+        ["css=button:nth-child(7)", "css:finder"],
+        ["xpath=//button[7]", "xpath:position"],
+        ["xpath=//button[contains(.,'1d')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19e5acf5-a2bb-4f1f-aa8f-c7204cd2540c",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(8)",
+      "targets": [
+        ["css=button:nth-child(8)", "css:finder"],
+        ["xpath=//button[8]", "xpath:position"],
+        ["xpath=//button[contains(.,'1w')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1da8cfd6-748a-4645-9cf2-74d2da113414",
+      "comment": "",
+      "command": "click",
+      "target": "id=iqf",
+      "targets": [
+        ["id=iqf", "id"],
+        ["name=iqf", "name"],
+        ["css=#iqf", "css:finder"],
+        ["xpath=//input[@id='iqf']", "xpath:attributes"],
+        ["xpath=//form[@id='sfrm1']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af167961-c5cb-4193-83c8-265ab67a0b5f",
+      "comment": "",
+      "command": "type",
+      "target": "id=iqf",
+      "targets": [
+        ["id=iqf", "id"],
+        ["name=iqf", "name"],
+        ["css=#iqf", "css:finder"],
+        ["xpath=//input[@id='iqf']", "xpath:attributes"],
+        ["xpath=//form[@id='sfrm1']/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "usd"
+    }, {
+      "id": "91e4bda2-fae6-45da-8ad9-56e30715e02b",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .instrument-short",
+      "targets": [
+        ["css=li:nth-child(1) > .instrument-short", "css:finder"],
+        ["xpath=//ul[@id='iqrs']/li/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fcff6eb-e222-4a13-947a-7be4ff94359e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(3) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(3) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[3]/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa20eca1-d7cf-477b-9a5f-0f802e04b3d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(4) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(4) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[4]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1503ddd-d2de-4789-8fe3-c792c7e45b76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(5) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(5) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98416d8c-42b6-4019-ac26-08227b1d299c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(6) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(6) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[6]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f461f3cf-76ac-4d23-aeff-ca1e26f1d066",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(7) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(7) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[7]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba0e2f7-e199-4974-baaf-da7edccd39dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(8) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(8) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[8]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f0a199-3250-4a40-b12c-6eba56513829",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(9) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(9) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[9]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbd74dda-71cf-47ce-8163-54eeec58eaba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(10) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(10) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[10]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44702e82-3f8c-46c8-8424-12b352779190",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(11) > .wMarkets__full",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(11) > .wMarkets__full", "css:finder"],
+        ["xpath=//div[11]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32426eec-1b5e-425e-8fad-b6bb0ae652d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(2) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(2) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[2]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92093c3b-1af9-48cd-a9aa-a2879854126e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#l_overlay > .form-container-white",
+      "targets": [
+        ["css=#l_overlay > .form-container-white", "css:finder"],
+        ["xpath=//div[@id='l_overlay']/div", "xpath:idRelative"],
+        ["xpath=//body/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c69300c-87fb-406b-a8c9-47c34d5743aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7054062f-61b9-4b8b-a899-df8d9da9e29f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(3) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(3) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[3]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e7e68d1-6f38-4521-94cd-93a13b7f8fcc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0642f7e-1db6-44bb-b326-88416eac11f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(4) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(4) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[4]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "537d6097-1aa9-41bd-86d5-03aae7fb30d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel use",
+      "targets": [
+        ["css=.l_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a7fbc2-328b-4e58-8d96-bcff7bc50705",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(5) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(5) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[5]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1e1c321-61f3-4460-beab-3fff6d478fcb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "89cb8336-abd3-49b1-a6f0-a942b03a3d0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(6) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(6) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[6]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f12ce014-1518-4798-a5c7-ecb2ebb7741f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel use",
+      "targets": [
+        ["css=.l_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6524a00-c678-4edc-bce3-1ffd6d884426",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(7) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(7) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[7]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "740321da-dad1-4a86-ba76-d512b6164b8b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d740309a-7a3b-423e-8a7e-e9bc6ee73d65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(8) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(8) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[8]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25259316-c577-48b2-b450-1a3615fe005b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "91fe55bd-348b-4389-880d-41bf37a34cec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(9) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(9) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[9]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69097474-07bf-41b7-9217-31092443b08c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fefbd2f-2c1f-4d6c-b2a3-d299f082eca4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(10) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(10) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[10]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbed7036-e26a-44ee-a065-de92ea8e1a7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "228e4a1c-20b6-45d6-bc80-be3477967e11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wMarkets__item:nth-child(11) > .wMarkets__btn",
+      "targets": [
+        ["css=.wMarkets__item:nth-child(11) > .wMarkets__btn", "css:finder"],
+        ["xpath=//div[11]/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f22a95c0-2ebf-4fe3-bab0-2ee252da4870",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l_cancel > svg",
+      "targets": [
+        ["css=.l_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a4f9542-d640-4a79-a423-1bd603a22c46",
+      "comment": "",
+      "command": "click",
+      "target": "css=.stageItem__account",
+      "targets": [
+        ["css=.stageItem__account", "css:finder"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16c8efe9-f7c7-4df2-a201-72a081a6a62f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f7d6880-f485-4bcc-a11f-5d2195e4d6b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badge-appstore:nth-child(1)",
+      "targets": [
+        ["css=.badge-appstore:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//section[4]/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "137e01a0-faab-4bd0-aae8-8c30215e2cad",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfafa988-b4e1-4dd4-b76d-7e14a7c0ee71",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86507cd9-ec08-4de8-ab0b-10bcf12acf03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2798)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7d318b0-b1cf-4b76-b685-19c586079789",
+      "comment": "",
+      "command": "click",
+      "target": "css=.promoApps__btn > .badge-googleplay",
+      "targets": [
+        ["css=.promoApps__btn > .badge-googleplay", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[3]", "xpath:href"],
+        ["xpath=//section[4]/div/div/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03df6075-b92d-4334-bbe4-2874c67f1e24",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64687d99-f8b9-4ab1-87e7-156dbe8b1d5c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "900a7844-b532-4437-823d-3d27842e04cc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3513)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0c91c2c-35e5-41b9-b364-1e33aa314144",
+      "comment": "",
+      "command": "click",
+      "target": "css=.markets__item:nth-child(3)",
+      "targets": [
+        ["css=.markets__item:nth-child(3)", "css:finder"],
+        ["xpath=//section[5]/div/div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0f8800-69ec-41d6-ba67-d95d2d62375c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.markets__item:nth-child(5)",
+      "targets": [
+        ["css=.markets__item:nth-child(5)", "css:finder"],
+        ["xpath=//section[5]/div/div[2]/div/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ed2165c-c3b3-437d-987f-7790f54b7579",
+      "comment": "",
+      "command": "click",
+      "target": "css=.markets__item:nth-child(7)",
+      "targets": [
+        ["css=.markets__item:nth-child(7)", "css:finder"],
+        ["xpath=//div[2]/div/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a4ff531-f998-4cac-8ccf-5df936a0e290",
+      "comment": "",
+      "command": "click",
+      "target": "css=.markets__item:nth-child(9)",
+      "targets": [
+        ["css=.markets__item:nth-child(9)", "css:finder"],
+        ["xpath=//div[2]/div/div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc354478-9f42-46b5-a77c-9a1b08d96071",
+      "comment": "",
+      "command": "click",
+      "target": "css=.markets__item:nth-child(1)",
+      "targets": [
+        ["css=.markets__item:nth-child(1)", "css:finder"],
+        ["xpath=//section[5]/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "392876e6-b723-4946-9709-42709739d29b",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=competitive spreads.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a542a50-d7ed-4834-9ceb-88800685d079",
+      "comment": "",
+      "command": "//pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44d07104-fb4b-489a-bb3d-b9856d062571",
+      "comment": "",
+      "command": "//executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40cc5e85-a6e2-4cfb-88d6-fbc662a45f5b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4006)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f233b5f6-c7ad-400a-b324-eea5c96648ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Got a question?",
+      "targets": [
+        ["linkText=Got a question?", "linkText"],
+        ["css=.button-main", "css:finder"],
+        ["xpath=//a[contains(text(),'Got a question?')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/trading/signup')])[2]", "xpath:href"],
+        ["xpath=//section[6]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Got a question?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5bcd658-9412-487d-ab51-8dbb22248eca",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b57ebe3-5335-475e-93e0-e39c813fdabf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2bcd185-215d-4178-9a7d-0e7769b2c3ce",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28ba0ea5-566d-4308-bd92-96ece09fc090",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,5001)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87600e41-60f8-46dd-9bed-caf23d8f1edb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "783f4ba1-e068-4b75-b325-6a1cd1380795",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f1706aea-a0fb-488d-b375-e4e627702b9e",
+    "name": "2. Demo",
+    "commands": [{
+      "id": "3048e97e-fc48-4ab2-af41-a604dd4e2a46",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc9c31d6-8415-40a2-b8aa-66ae10f0351f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e943b3c4-900a-4564-9d7e-b0e49c86ed0b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a61be21-405b-4ff3-8d12-c66b74a94c19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Demo account",
+      "targets": [
+        ["linkText=Demo account", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(1) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Demo account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/demo-account ')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Demo account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3fe4385-88d0-40f6-bbf5-4791a9891e00",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#lp_form_95_1-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='lp_form_95_1-email']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f44bcf6-1742-4144-abc1-398dbde302d9",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#lp_form_95_1-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='lp_form_95_1-email']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.com"
+    }, {
+      "id": "687a1dab-b762-49d5-9f87-d96a8195cfa9",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#lp_form_95_1-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='lp_form_95_1-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8206e7a5-ecb5-4943-8b2c-24e6e4a45d22",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#lp_form_95_1-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='lp_form_95_1-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "asdfAs1234!@#"
+    }, {
+      "id": "368d026d-78ed-4866-836e-a68459e101da",
+      "comment": "",
+      "command": "click",
+      "target": "css=#lp_form_95_1-pass > .field__eye",
+      "targets": [
+        ["css=#lp_form_95_1-pass > .field__eye", "css:finder"],
+        ["xpath=//label[@id='lp_form_95_1-pass']/i[2]", "xpath:idRelative"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26a79d55-fecb-4e7c-85de-c184d713c254",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,298)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fbb61af-052c-454a-a7c0-698c86ac90fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Get a risk-free demo account')]",
+      "targets": [
+        ["css=form:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='lp_form_95_1']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Get a risk-free demo account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "137acaba-8b61-44a3-a2d6-c2655931660c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create account",
+      "targets": [
+        ["linkText=Create account", "linkText"],
+        ["css=.btn--darkText", "css:finder"],
+        ["xpath=//a[contains(text(),'Create account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'security-measures')]", "xpath:href"],
+        ["xpath=//section[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a035831-cbba-4ef6-925a-ea7ceef52b1f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7271b99-a7d6-454b-94ea-1426abe096d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create my free account",
+      "targets": [
+        ["linkText=Create my free account", "linkText"],
+        ["css=.btn--md:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Create my free account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create my free account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed260697-2b2a-43c0-9253-1b8c663cd9e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e09d84b-5f47-46a3-a6a2-b5b8943ebbb9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,698)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52390b35-75ba-4554-8ae7-12b596a723e8",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.bannerVideo__btns > .badge-googleplay",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbe7e8e6-ce1e-46ba-8563-c101c3059925",
+      "comment": "",
+      "command": "//pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a295f3f2-4f8e-4927-8172-eb8551f4bf39",
+      "comment": "",
+      "command": "//executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb0c5322-fdf5-4f33-b462-0c8b685b2bc3",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.bannerVideo__btns > .badge-appstore",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b5cf93a5-c91b-4659-b880-07e3c41699a7",
+      "comment": "",
+      "command": "//pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "700c639d-946a-4131-bf7a-11d26d049b88",
+      "comment": "",
+      "command": "//executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "274178d7-4d64-436b-8133-9bfd97c8d7df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2098)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25516358-b1a2-4739-bae0-8ddc4fab3932",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Is it possible to trade CFDs and leverage in the virtual account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f8ac46-3926-4027-ad1d-1ce45cf249e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) h3",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) h3", "css:finder"],
+        ["xpath=//details[2]/summary/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'How long does a demo account last?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa5e9578-8f35-47ad-859a-53befac4b455",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How long does a demo account last?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fa57ead-f2c9-47c9-90f9-4bd045aef391",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What’s the difference between a demo account and a real account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dc24227-9390-438d-a9c6-f4aa01439b79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What’s the difference between a demo account and a real account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b29033-0713-457c-86e5-44e8ac9577ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How do I set up my free demo account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95847f9f-2ab9-461e-88f2-c7968c0b4df4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How do I set up my free demo account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82926a85-9d6d-4660-bace-82219579dd16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Is trading demo account suitable for beginners?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29e9051e-c3a0-4f42-8c8d-e3dd8ea08c8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Is trading demo account suitable for beginners?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab90367e-2fc7-4845-bdd0-b2e57d821a1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I trade real-time stocks in the virtual account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3cdb2f7-de27-4180-b627-174dcc5dbd13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(6) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I trade real-time stocks in the virtual account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcefb941-6c28-4260-8164-3f81d46adae7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-analyticsVisible:nth-child(1)",
+      "targets": [
+        ["css=.js-analyticsVisible:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[3]", "xpath:href"],
+        ["xpath=//section[7]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "115323f9-c9c9-4302-8431-e677e837df75",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcadbc52-844e-4076-b30a-26466e358647",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd44af35-c085-415d-9de7-9f6b51591ecb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-analyticsVisible:nth-child(2)",
+      "targets": [
+        ["css=.js-analyticsVisible:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[4]", "xpath:href"],
+        ["xpath=//section[7]/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09acff9b-5601-40d2-9326-6f4070adc63f",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e21a31b0-b4d2-4a22-adf5-94271cc03b06",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6031bb7-276e-4cf7-8841-66496ff28ecb",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1800cf7-39cb-402b-9735-236ff08be959",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c5b4ddd-d2cf-4366-819d-a3f47e542874",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f30143fb-2807-4c13-a2f3-c7d9c88a8c3b",
+      "comment": "",
+      "command": "",
+      "target": "css=.webp > div:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f0faba85-11ac-4662-be17-fa536d6815f3",
+    "name": "3. Profesional traiders",
+    "commands": [{
+      "id": "94ff9dc5-c23c-46c0-91bc-b7d41e011dc3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a14d44e6-02f5-4417-b838-598383ad16e1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a4e93ca-6474-409b-b1a9-2d68bacab430",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Products and services",
+      "targets": [
+        ["linkText=Products and services", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products and services')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading-products')]", "xpath:href"],
+        ["xpath=//nav/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products and services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12db2576-8ab3-49aa-a206-283077ca66db",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Products and services",
+      "targets": [
+        ["linkText=Products and services", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) > .cc-nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Products and services')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading-products')]", "xpath:href"],
+        ["xpath=//nav/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Products and services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d569cb9f-6b46-4618-b938-6e148e005d68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Discover Pro Trading",
+      "targets": [
+        ["linkText=Discover Pro Trading", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(2) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Discover Pro Trading')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/professional-clients-au')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Discover Pro Trading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "750afe31-8135-4293-85f3-1ee177226500",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-main",
+      "targets": [
+        ["css=.button-main", "css:finder"],
+        ["xpath=//div[2]/div/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Apply')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24a4315a-e594-438d-bfc6-8f756a75e171",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "74f4f5b4-ad02-44c6-a430-234a275f0f0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup use",
+      "targets": [
+        ["css=.js_signup use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6bc61db-ac0a-4457-8aac-67818606d7e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "49ba70bf-e76e-4c14-ab0f-30394d10f073",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "50ac950e-9a65-460c-af2f-7f4d699bebab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Corporate Accounts",
+      "targets": [
+        ["linkText=Corporate Accounts", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(2) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Corporate Accounts')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/corporate-account-au')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Corporate Accounts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f7e8c6-6a6d-4e60-b4af-5b914cdd5b70",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#corp-account-form-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='corp-account-form-email']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0804f06b-4fd1-4a9d-aea0-5b98f400ef48",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#corp-account-form-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='corp-account-form-email']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "aaa53171-1f45-4c86-aaff-e1fd0d847d5a",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#corp-account-form-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='corp-account-form-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8b100b-a1fa-4a06-9bca-04dc0cb7a468",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#corp-account-form-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='corp-account-form-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "qweQ123!@#"
+    }, {
+      "id": "6008a41c-2338-4180-b151-caf473f634a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#corp-account-form-pass > .field__eye",
+      "targets": [
+        ["css=#corp-account-form-pass > .field__eye", "css:finder"],
+        ["xpath=//label[@id='corp-account-form-pass']/i[2]", "xpath:idRelative"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da30203d-f211-4faf-88cc-a2d1092d80c9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["css=#corp-account-form .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='corp-account-form']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start trading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "751ae97b-3df8-4122-9285-348b5cc38833",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Privacy Policy",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bf44d14-5a93-4f75-a601-10712f28a33a",
+      "comment": "",
+      "command": "//pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8ce4825-d08a-4d50-a2cf-0853352c662c",
+      "comment": "",
+      "command": "//close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f68c236f-8be6-4574-bd9c-cee3fe41d7e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What happens when my application is complete?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "705885c6-8e95-4e16-bc16-4f366abd6126",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What happens when my application is complete?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "164541d2-7c7c-4b5c-99c9-d482888c26d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use an individual and corporate or SMSF account at the same time?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0a3f826-778c-4e1e-8396-4a74e15a6d73",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use an individual and corporate or SMSF account at the same time?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e207297-8e78-4420-8c88-8d63413a407a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I open a corporate account with higher leverage (Pro account)?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dc17d73-5aa2-4b26-a006-5390a9a4d62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I open a corporate account with higher leverage (Pro account)?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db9db64b-4a3b-4a0c-9f55-699a2ada70a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I open a corporate account with a company that isn’t based in Australia?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8db1ffe3-c977-4ab1-ae81-86ac098dbae6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I open a corporate account with a company that isn’t based in Australia?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7db782e-0bf3-47d7-9586-24ee09469787",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try now",
+      "targets": [
+        ["linkText=Try now", "linkText"],
+        ["css=.btn--darkText", "css:finder"],
+        ["xpath=//a[contains(text(),'Try now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/corporate-account-au#')])[3]", "xpath:href"],
+        ["xpath=//section[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d056e9-f885-40df-ba6c-6bc8c6e67883",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "124e2e5e-ae27-4e0b-9332-6fbf2cec9d4c",
+    "name": "4. Trade with Capital",
+    "commands": [{
+      "id": "fce91e0f-acef-4b05-aec7-267194ff2d61",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8049871a-12cc-4b02-b68e-3e665813c600",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca861fbd-d235-490a-9800-6b79b528e133",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Charges & fees",
+      "targets": [
+        ["linkText=Charges & fees", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(3) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Charges & fees')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/charges-and-fees')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Charges & fees')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "67e998de-613f-456f-9181-5d9488245810",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start Trading Now",
+      "targets": [
+        ["linkText=Start Trading Now", "linkText"],
+        ["css=.button-main:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start Trading Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Trading Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12bb8942-72d0-4025-822c-5d54cc22f599",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "26cf4d43-aa3c-4856-acae-59fdab291505",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,697)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd798c5b-8e59-4b9a-9a35-b2d9f0d012d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "55ded04b-a0ec-43e8-87e8-af3b8d284043",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f87699-9142-4c23-9939-52979545ca7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f1d0aed-6f32-487d-a3fd-5fcd60a25fd0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Capital.com vs competitors",
+      "targets": [
+        ["linkText=Capital.com vs competitors", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(3) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Capital.com vs competitors')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/capital-com-vs-competitors')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Capital.com vs competitors')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6bf997-3bbe-4823-b05c-21b0191b7c55",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,936)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f4569c2-4caf-4bb6-bc11-5e63997dcdc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.regSteps__item:nth-child(1)",
+      "targets": [
+        ["css=.regSteps__item:nth-child(1)", "css:finder"],
+        ["xpath=//section/div/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d185bf-fb1a-460f-8bbc-6ffafad11627",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f240af-a8d0-4317-b004-00ff125eba0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff28ba7-5b94-44b6-8433-2994ff39549e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Why Capital.com?",
+      "targets": [
+        ["linkText=Why Capital.com?", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(3) > .cc-nav__link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Why Capital.com?')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/why-capital-com')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Why Capital.com?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdd681ed-ae24-49bf-9e67-39692663cd19",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start Trading Now",
+      "targets": [
+        ["linkText=Start Trading Now", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Start Trading Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//section/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start Trading Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2145e943-585d-43c1-9c07-5dfcada6fdf2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf893b35-4de8-4cf9-b381-315dd2a82475",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=award-winning platform",
+      "targets": [
+        ["linkText=award-winning platform", "linkText"],
+        ["css=.accordionCheckbox__content > p > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'award-winning platform')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/online-trading-platform')])[2]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'award-winning platform')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d523889-d6d7-4de5-bf03-252808e52093",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c0f4410-6923-46ad-81a4-2917730c020c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]",
+      "targets": [
+        ["css=.badge-platform", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ecfbcf3-7c49-417c-9271-56b69d8d70b1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c7a71c-1966-4308-bc96-831cad525c78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1045)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4c3809d-e1e8-4f14-87d6-974503cd83e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c41f1be9-9ad3-4523-bae3-21b69f3b6c78",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3eee1ef4-069a-4250-872d-f4f3a7a2e556",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3fff89e-e18a-4ae5-b2c4-c25db3c4edb4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Security at Capital",
+      "targets": [
+        ["linkText=Security at Capital", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .grid:nth-child(3) > .cc-nav__link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Security at Capital')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/security-measures')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Security at Capital')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9894a5c-6034-48c3-b74a-479af9ed678b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1351)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcc6e126-c79d-4961-baec-69c2d9647655",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3513f015-da1f-4867-9a3f-66f76a92fadf",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "da9fd477-5755-49a1-9833-b45b55a908d0",
+    "name": "5. Our mobile app/Desktop",
+    "commands": [{
+      "id": "b4772629-dad4-45c6-a2cf-4dd0c9676ca5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b949cee-5979-445b-a360-0ed00c7f743b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60e5f79c-8f81-47cb-9f55-58dae5a67555",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "473dfb59-bd04-4020-9cc7-88d7deaa950c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Our Mobile Apps",
+      "targets": [
+        ["linkText=Our Mobile Apps", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Mobile Apps')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/mobile-apps')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Mobile Apps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "59253692-09e2-417d-908d-270a496cc206",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Our Mobile Apps",
+      "targets": [
+        ["linkText=Our Mobile Apps", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Mobile Apps')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/mobile-apps')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Our Mobile Apps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "127161a8-175b-4a2c-93dc-a0eb46a929f1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,701)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec389311-a469-44f3-8648-5bbbe7055afd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(1)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//section[2]/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ddc4d3b-5864-47f7-827d-6da8dc5edca6",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b80005d0-e918-4d3b-a53f-88a1ba853811",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "551277ef-78ff-4891-9ef1-dc6be6cb9b16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(2)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[2]", "xpath:href"],
+        ["xpath=//section[2]/div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4f2c9a7-b7fb-44de-bff7-a21c6996917a",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "519f54d9-d40c-41c1-8634-af0017e9e75b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47c2ae55-d8d3-4529-a158-6cef4a6fe26b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid:nth-child(2) > .gMdLg > .badge-appstore",
+      "targets": [
+        ["css=.grid:nth-child(2) > .gMdLg > .badge-appstore", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://app.appsflyer.com/id1229995329?pid=website&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7144bf2b-8a0e-4a9c-8f0f-60ae0cc19766",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2830393-aa57-43c7-a042-62b2f851638d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0280686b-35f0-4b49-b52f-5c3252b312f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid:nth-child(2) > .gMdLg > .badge-googleplay",
+      "targets": [
+        ["css=.grid:nth-child(2) > .gMdLg > .badge-googleplay", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://app.appsflyer.com/com.capital.investmate?pid=website&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970e8943-4c15-4520-becb-e4634781e53d",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e74a8b9-2ea4-428e-b02d-32b718e92ed4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed4f6b5c-0f37-4aa2-89a0-b3ff962fdecc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid:nth-child(2) > .alignCenterToLeft > .arrowLink",
+      "targets": [
+        ["css=.grid:nth-child(2) > .alignCenterToLeft > .arrowLink", "css:finder"],
+        ["xpath=(//a[contains(text(),'App overview')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/learn-trading-app')])[2]", "xpath:href"],
+        ["xpath=//section[3]/div/p[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59968eff-45cc-4119-951e-8f574defd280",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "184b7333-923a-43cb-97ed-fc3a37fb0d1a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dba1142-e768-4ae4-bdde-3b6043350133",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try now",
+      "targets": [
+        ["linkText=Try now", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Try now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/mobile-apps#')])[3]", "xpath:href"],
+        ["xpath=//main/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a16f0dd4-cdfb-4f1e-88a3-bc8d99faa088",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try now",
+      "targets": [
+        ["linkText=Try now", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Try now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/mobile-apps#')])[3]", "xpath:href"],
+        ["xpath=//main/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72f95b5f-4db6-40c5-b515-c5843421c239",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CFD Trading App",
+      "targets": [
+        ["linkText=CFD Trading App", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'CFD Trading App')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/cfd-trading-app')]", "xpath:href"],
+        ["xpath=//div[4]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CFD Trading App')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d842f6ca-d75e-47e7-be16-d4504d3c74cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(3)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc68f70-f8a8-4f77-a975-b8a1860aa932",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "915fec07-8527-41aa-9a22-32d618a506d2",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be959a5a-3edf-481b-9015-3bc15410bee7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(4)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div[2]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daa8cc81-db90-4259-87d2-cf4ab3f1196a",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3243cbd-4c62-4e2d-949f-18b12b52305c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22631d71-4b82-4d4b-8c8d-10be7449c75b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Practise for free",
+      "targets": [
+        ["linkText=Practise for free", "linkText"],
+        ["css=.button-main:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Practise for free')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/signup?go=demo')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Practise for free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0caed40-046a-4b1a-be58-2c88d0b97511",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1308e15-f052-4aa1-a1ba-ec38bc33edfe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=more than 3,700",
+      "targets": [
+        ["linkText=more than 3,700", "linkText"],
+        ["css=.txt-md > a", "css:finder"],
+        ["xpath=//a[contains(text(),'more than 3,700')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/derivative-financial-instruments')])[3]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'more than 3,700')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d43cfb78-99ba-4e4b-a76f-6fd727bbb888",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "506577fe-28a8-4752-af2f-fe46d4a3d719",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa29f0e1-d4bb-492a-84b3-481032f024f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3137)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6112db7-a803-4cb6-8cdd-c6b954ef7f0a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start trading now",
+      "targets": [
+        ["linkText=Start trading now", "linkText"],
+        ["css=.rounded-lg:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start trading now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/trading/signup')])[2]", "xpath:href"],
+        ["xpath=//div[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start trading now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "698c1a1b-5092-4cdd-ad1d-5fa9bf22d8df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "916fc0cc-3e1a-4b41-8dff-2ab31d5ac3dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(1)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[3]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a70ae9b-9940-48c2-b1a6-4dbc1d250cb2",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05ca4cb5-5d83-47a9-b5b6-e8dc390429a8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af554ee8-5f96-4252-83c2-c29a14bb5588",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(2)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[4]", "xpath:href"],
+        ["xpath=//div[11]/div[2]/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6622e2be-91de-47e6-9cb4-fdde4fb4f827",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6dc9ba2-b937-42d9-a92f-5b6748bc1ae4",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10a8a848-577a-4af1-920e-f170067294f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.badge-platform",
+      "targets": [
+        ["css=.badge-platform", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]", "xpath:href"],
+        ["xpath=//div/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daf16d06-7f21-43dc-ac6f-1693bd655437",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4216d219-56db-4b27-af8e-136e692a39ae",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98f002cd-e62b-4869-b72c-1e082db39cf1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.im:nth-child(1)",
+      "targets": [
+        ["css=.im:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://app.appsflyer.com/id1229995329?pid=website&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92ec7c99-53d0-4f05-8cc8-9039ef063ecf",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72880836-b872-4723-bbcf-d421e8817460",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01ac7a92-9940-41f6-bff1-800e2de2a727",
+      "comment": "",
+      "command": "click",
+      "target": "css=.banner-capital__button-store:nth-child(2)",
+      "targets": [
+        ["css=.banner-capital__button-store:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://app.appsflyer.com/com.capital.investmate?pid=website&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//div[2]/div[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e5594f-1a51-48af-846e-0eb67082d75f",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ff8a95b-4e61-4f4a-bd39-6e295cc566f6",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a141539e-ac8d-4a99-bc6d-277424125f5c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktop Trading",
+      "targets": [
+        ["linkText=Desktop Trading", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktop Trading')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/online-trading-platform')]", "xpath:href"],
+        ["xpath=//div[4]/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktop Trading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "908c0032-7bde-4017-a1fa-86f918e30106",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]",
+      "targets": [
+        ["css=.badge-platform", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/platform/')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66c460ef-0098-479a-af2f-5507599cc281",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d949bf17-a2c5-40b9-a506-de121035ae4f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6808ce44-fda0-45f2-b9df-140ee9fc7287",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create an account",
+      "targets": [
+        ["linkText=Create an account", "linkText"],
+        ["css=.feedback:nth-child(2) .\\__cp_b", "css:finder"],
+        ["xpath=//a[contains(text(),'Create an account')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Create an account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bd9ac1-944a-4725-b9f1-3f74fe9292a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e87c46a2-e60e-4eb2-b0d0-a8877b2123ed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try Demo",
+      "targets": [
+        ["linkText=Try Demo", "linkText"],
+        ["css=.feedback:nth-child(1) .\\__cp_b", "css:finder"],
+        ["xpath=//a[contains(text(),'Try Demo')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/trading/signup')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Try Demo')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cce846df-1a3d-4c52-8f71-b700bc68d902",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f04f93bb-49d7-4434-ab6e-8c8303e32cc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=iOS overview",
+      "targets": [
+        ["linkText=iOS overview", "linkText"],
+        ["css=p:nth-child(1) > .button-link", "css:finder"],
+        ["xpath=//a[contains(text(),'iOS overview')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/cfd-trading-app')])[2]", "xpath:href"],
+        ["xpath=//div[4]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'iOS overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3eac55-0434-4ad6-b847-5c09cb247870",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2502bf46-f7ba-4b65-9eef-971ae2f001bf",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d18d67c-e61c-40a3-9e3d-a6870d6d1105",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Android overview",
+      "targets": [
+        ["linkText=Android overview", "linkText"],
+        ["css=p:nth-child(2) > .button-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Android overview')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/cfd-trading-app#android')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Android overview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abf4e9f9-476b-4540-b886-eae6c0aa1d79",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "907dcdc1-268d-4aa3-a6ad-390cbc472e7a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f581329-3169-4209-866d-cdc89faab0f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(1)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')]", "xpath:href"],
+        ["xpath=//div/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e8a0dc4-6279-4c21-b707-d6aac1b35c39",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "792190d9-f7f9-4e06-97ca-11a4f1bcb002",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "604ed9d3-1b00-4e72-aa27-11c1b9f37351",
+      "comment": "",
+      "command": "click",
+      "target": "css=.onelink-mobile-url:nth-child(2)",
+      "targets": [
+        ["css=.onelink-mobile-url:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://capitalcom.onelink.me/700515151?af_js_web=true&af_ss_ver=2_3_0&pid=web&af_ss_ui=true&&cp_device_id=58c99e79-a548-10aa-b3a9-8307a1a98c9f')])[2]", "xpath:href"],
+        ["xpath=//div[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e0581f3-3cf9-43a0-9d7d-6d48be212cca",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5825456-8c0d-423d-bb6c-547d9f6b5480",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40c87044-f99f-434a-b864-2a392993fb4a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "941ffbf2-48b8-411f-bddc-95bf8f502773",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Try now",
+      "targets": [
+        ["linkText=Try now", "linkText"],
+        ["css=.btn--darkText", "css:finder"],
+        ["xpath=//a[contains(text(),'Try now')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/online-trading-platform#')])[3]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Try now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "677f1de9-f825-456c-b352-bb8ef8eaf9a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel use",
+      "targets": [
+        ["css=.s_cancel use", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "697f9f06-c35e-4bf9-b65d-16bced176e87",
+    "name": "6. API",
+    "commands": [{
+      "id": "846f030b-565f-4b4a-99ad-53c2201779be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92fd3bda-a185-4825-9bef-3882994bda79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91cb3104-666d-4016-be35-49d7ff254f3f",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e4c286d-f68b-40d5-ab49-218cbc13520d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Capital.com API",
+      "targets": [
+        ["linkText=Capital.com API", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Capital.com API')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api')]", "xpath:href"],
+        ["xpath=//div[4]/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Capital.com API')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74d8707d-c804-41bb-94c4-d95c8bb1fa00",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Get started",
+      "targets": [
+        ["linkText=Get started", "linkText"],
+        ["css=.btn--sm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Get started')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//article/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Get started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b13f167-7569-4596-9c9f-f02adb6261d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0944255f-f83b-47f4-af32-a9bf7d957881",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open API",
+      "targets": [
+        ["linkText=Open API", "linkText"],
+        ["css=.brick > p:nth-child(3) > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Open API')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://open-api.capital.com/')]", "xpath:href"],
+        ["xpath=//p[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open API')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4877",
+      "windowTimeout": 2000
+    }, {
+      "id": "04be0d6d-22f6-4870-a661-13e6179ef115",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb77fea-c247-4d64-bdd3-3a637ce4fc4d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4877}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0044bce-41fc-4a77-a0be-b8de15fb969c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0c1da52-be07-4eac-93f4-c66ac2ae6a86",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73eac168-f4c1-4f26-b9e9-1e0a570b9ebb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore Open API Doc",
+      "targets": [
+        ["linkText=Explore Open API Doc", "linkText"],
+        ["css=.btn--sm:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Explore Open API Doc')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://open-api.capital.com/')])[2]", "xpath:href"],
+        ["xpath=//article/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Explore Open API Doc')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7678",
+      "windowTimeout": 2000
+    }, {
+      "id": "0e3a24d8-1554-4415-91c4-ad3230a418b1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7678}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e50bfbd4-b971-4eb2-a171-d07a2f1519ea",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dd55705-cbe7-44cb-8cbd-0cdb58dc8063",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b52a53de-5c8d-48c7-be8f-a71f49a6b6e7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(@href, 'https://capital.com/trading/signup')])[2]",
+      "targets": [
+        ["linkText=here", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'here')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/trading/signup')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'here')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b172160-821f-404b-8971-595376945a94",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ccee6fa-a8ad-46cd-9dc8-e117ff143961",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d2d6bd9-2cf6-44fa-a013-e16f4ef0e69f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Instruction for 2FA enabling",
+      "targets": [
+        ["linkText=Instruction for 2FA enabling", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Instruction for 2FA enabling')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.zendesk.com/hc/en-us/articles/4403995863314-How-can-I-enable-2FA-')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Instruction for 2FA enabling')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4189",
+      "windowTimeout": 2000
+    }, {
+      "id": "a39b716e-e8ab-4846-8aab-dbfc8400b720",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4189}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d7c2b34-fbef-4807-a9f4-14ea1d1f7851",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e83f612-9417-4046-b2d4-532d022fdbf7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97448e2b-6aab-4933-86b5-bfd747b6999c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Check our FAQ",
+      "targets": [
+        ["linkText=Check our FAQ", "linkText"],
+        ["css=.btn--api:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Check our FAQ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.zendesk.com/hc/en-us/sections/4415178206354-API')]", "xpath:href"],
+        ["xpath=//article/div[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Check our FAQ')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9877",
+      "windowTimeout": 2000
+    }, {
+      "id": "6b55cf7b-0a79-4ae9-ba11-86392c6c2f93",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9877}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3af89bf3-01f7-47d3-a65b-38360d32e0d8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4326a6b1-615f-4d88-8816-f0329076ada5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd99ea68-ead5-45f1-acdc-d4f1a03fb11b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open API Doc",
+      "targets": [
+        ["linkText=Open API Doc", "linkText"],
+        ["css=.btn--api:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Open API Doc')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://open-api.capital.com/')])[3]", "xpath:href"],
+        ["xpath=//div[5]/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5387",
+      "windowTimeout": 2000
+    }, {
+      "id": "8087582f-f0dc-4fa5-b522-5d168358fa60",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5387}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02a3a3c2-a9d5-4490-8ce7-10af6a19d624",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4db2a554-de59-4014-97da-4b8ba623a4ef",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a01e4c0-ac45-4ad1-b47b-d777834e3050",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Description",
+      "targets": [
+        ["linkText=Description", "linkText"],
+        ["css=.js-target:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Description')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api#description')]", "xpath:href"],
+        ["xpath=//details/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Description')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c997c9a-4289-46ba-9838-db0a25e63005",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Getting started",
+      "targets": [
+        ["linkText=Getting started", "linkText"],
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Getting started')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api#getting-started')]", "xpath:href"],
+        ["xpath=//details/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Getting started')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2f745e2-b755-404f-a7ba-b9eff1f9cc96",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Available functionality with the Capital.com API",
+      "targets": [
+        ["linkText=Available functionality with the Capital.com API", "linkText"],
+        ["css=.js-target:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Available functionality with the Capital.com API')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api#available-functionality')]", "xpath:href"],
+        ["xpath=//details/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Available functionality with the Capital.com API')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dc7c714-bc38-4825-b651-6bb61bf326ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0ebf8b-c412-4df8-8179-dc229181f081",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a0f3a4f-b03f-4762-9ec2-f57c9d5ff857",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=General information",
+      "targets": [
+        ["linkText=General information", "linkText"],
+        ["css=.anchorNav__item:nth-child(2) .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'General information')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-general-information')]", "xpath:href"],
+        ["xpath=//details[2]/summary/a", "xpath:position"],
+        ["xpath=//a[contains(.,'General information')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13cddae4-fc25-45e4-863f-b741fab9e511",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=https://open-api.capital.com/",
+      "targets": [
+        ["linkText=https://open-api.capital.com/", "linkText"],
+        ["css=li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'https://open-api.capital.com/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://open-api.capital.com/')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://open-api.capital.com/')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win418",
+      "windowTimeout": 2000
+    }, {
+      "id": "e856c1dc-f94d-4c47-8e9f-f2c054b1bb05",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win418}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5edeea78-5f0e-4ae6-80c0-d8264459c724",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cfecee8-12de-4a43-ab6a-ed5a73c939d3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c9fb7119-e5f5-4cca-93f1-6c952c87da56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=https://api-capital.backend-capital.com/",
+      "targets": [
+        ["linkText=https://api-capital.backend-capital.com/", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'https://api-capital.backend-capital.com/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://api-capital.backend-capital.com/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://api-capital.backend-capital.com/')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4230",
+      "windowTimeout": 2000
+    }, {
+      "id": "c2260d59-8e6d-49f5-8d4a-6b81433d0876",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4230}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfb9002f-5bc0-4744-8d16-baf3d541107d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9761b56a-0844-45b4-9d3a-b98607d7a3b3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50839e3d-cb38-4a0f-9cf6-b7c7a90c477d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=https://demo-api-capital.backend-capital.com/",
+      "targets": [
+        ["linkText=https://demo-api-capital.backend-capital.com/", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'https://demo-api-capital.backend-capital.com/')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://demo-api-capital.backend-capital.com/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'https://demo-api-capital.backend-capital.com/')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6134",
+      "windowTimeout": 2000
+    }, {
+      "id": "874ec5f5-29e1-40fe-9c33-691623d628cf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6134}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92eaf5c2-e034-46a3-b378-ec0a16a9c38c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e4309bc-fae4-4c90-b4f9-05a183f77baf",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f01082e2-6a1a-4a30-a877-ebef453f5439",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Changelog",
+      "targets": [
+        ["linkText=Changelog", "linkText"],
+        ["css=.anchorNav__item > .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Changelog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-changelog')]", "xpath:href"],
+        ["xpath=//aside/div/nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Changelog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44516733-e067-4de6-9096-1cb12b1514c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Development guide",
+      "targets": [
+        ["linkText=Development guide", "linkText"],
+        ["css=.anchorNav__item:nth-child(4) .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Development guide')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-development-guide')]", "xpath:href"],
+        ["xpath=//details[3]/summary/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Development guide')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c89363-83a0-4744-a4f7-53d142dbe074",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Authentication",
+      "targets": [
+        ["linkText=Authentication", "linkText"],
+        ["css=.js-target:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Authentication')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#authentication')]", "xpath:href"],
+        ["xpath=//details[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Authentication')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd3b510-904f-4cda-acf6-fce8354968a1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Notes on orders and positions",
+      "targets": [
+        ["linkText=Notes on orders and positions", "linkText"],
+        ["css=.js-target:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Notes on orders and positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#notes-on-orders-and-positions')]", "xpath:href"],
+        ["xpath=//details[3]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Notes on orders and positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "385ff5f5-df33-4f8b-876c-dad2388f3983",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Notes on orders and positions",
+      "targets": [
+        ["linkText=Notes on orders and positions", "linkText"],
+        ["css=.js-target:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Notes on orders and positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#notes-on-orders-and-positions')]", "xpath:href"],
+        ["xpath=//details[3]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Notes on orders and positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c60800f2-e4c2-4b1d-a9d9-868b3a84fdc0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Symbology",
+      "targets": [
+        ["linkText=Symbology", "linkText"],
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Symbology')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#symbology')]", "xpath:href"],
+        ["xpath=//details[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Symbology')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a225bfac-8469-478c-9fb5-7982ac9a1a13",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Notes on orders and positions",
+      "targets": [
+        ["linkText=Notes on orders and positions", "linkText"],
+        ["css=.js-target:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Notes on orders and positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#notes-on-orders-and-positions')]", "xpath:href"],
+        ["xpath=//details[3]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Notes on orders and positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "478fe580-1ced-4233-bcdc-a5418753a41f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Status codes",
+      "targets": [
+        ["linkText=Status codes", "linkText"],
+        ["css=.js-target:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Status codes')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-development-guide#status-codes')]", "xpath:href"],
+        ["xpath=//details[3]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Status codes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eecd6faf-68ed-40a5-96bb-90b93604d531",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WebSocket API",
+      "targets": [
+        ["linkText=WebSocket API", "linkText"],
+        ["css=.anchorNav__item:nth-child(5) .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'WebSocket API')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-websocket')]", "xpath:href"],
+        ["xpath=//details[4]/summary/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WebSocket API')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d2d9c85-e8e7-4941-97d0-7a2e1a08b4fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Changelog",
+      "targets": [
+        ["linkText=Changelog", "linkText"],
+        ["css=.anchorNav__item > .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Changelog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-changelog')]", "xpath:href"],
+        ["xpath=//aside/div/nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Changelog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8788faf-3cc3-4789-b4bf-14f98f8295b8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Changelog",
+      "targets": [
+        ["linkText=Changelog", "linkText"],
+        ["css=.anchorNav__item > .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Changelog')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-changelog')]", "xpath:href"],
+        ["xpath=//aside/div/nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Changelog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab549b90-1804-45b6-9eb6-a7135cba59e4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Starting a stream",
+      "targets": [
+        ["linkText=Starting a stream", "linkText"],
+        ["css=.js-target:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Starting a stream')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-websocket#starting-a-stream')]", "xpath:href"],
+        ["xpath=//details[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Starting a stream')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b876826-bbd6-45aa-b24f-d43f2fecb9ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Streams available",
+      "targets": [
+        ["linkText=Streams available", "linkText"],
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Streams available')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-websocket#streams-available')]", "xpath:href"],
+        ["xpath=//details[4]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Streams available')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0af09bf1-5bb7-494b-bdc2-f2248fc34705",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Request examples",
+      "targets": [
+        ["linkText=Request examples", "linkText"],
+        ["css=.anchorNav__item:nth-child(6) .ln-auto", "css:finder"],
+        ["xpath=//a[contains(text(),'Request examples')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'api-request-examples')]", "xpath:href"],
+        ["xpath=//details[5]/summary/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Request examples')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2624ccf-6797-44f6-b369-867a24a4174d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-target:nth-child(1)",
+      "targets": [
+        ["css=.js-target:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'POST ​/session')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-request-examples#post-session')]", "xpath:href"],
+        ["xpath=//details[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'POST ​/session')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33f9381-d182-47bf-99ce-08a26d7e6354",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.js-target:nth-child(2)",
+      "targets": [
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'POST ​/positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-request-examples#post-positions')]", "xpath:href"],
+        ["xpath=//details[5]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'POST ​/positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "60fa536e-7288-4a22-a9ab-e607839a4a28",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-target:nth-child(2)",
+      "targets": [
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'POST ​/positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-request-examples#post-positions')]", "xpath:href"],
+        ["xpath=//details[5]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'POST ​/positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e5cdab9-fae1-4882-8984-2b502fb45ef9",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.js-target:nth-child(2)",
+      "targets": [
+        ["css=.js-target:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'POST ​/positions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-request-examples#post-positions')]", "xpath:href"],
+        ["xpath=//details[5]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'POST ​/positions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "812190f3-a166-4018-ab6e-384760d4c35c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-target:nth-child(3)",
+      "targets": [
+        ["css=.js-target:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'POST ​/workingorders')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/api-request-examples#post-workingorders')]", "xpath:href"],
+        ["xpath=//details[5]/div/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'POST ​/workingorders')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5c5bb3-7a31-4ecd-ad79-fc53b0c64eb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop",
+      "targets": [
+        ["css=.cc-icons--arrowTop", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c6ad822b-ecd4-41d2-8c2d-2698d677cb14",
+    "name": "7. Metatrader 4",
+    "commands": [{
+      "id": "24693338-ceb2-4690-880a-e62ef51a1381",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fec17c33-f96f-4820-9c79-d80c5b0d2e8a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x960",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "128c225b-b42d-4310-9e69-f53c244dc1d3",
+      "comment": "/",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6338dcba-8731-4888-9fb6-0bf9f14db145",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MetaTrader 4",
+      "targets": [
+        ["linkText=MetaTrader 4", "linkText"],
+        ["css=.grid:nth-child(4) > .cc-nav__link:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'MetaTrader 4')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/metatrader-4')]", "xpath:href"],
+        ["xpath=//div[4]/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'MetaTrader 4')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e21d2adc-4e5f-41e1-a473-e56c38517424",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Start trading",
+      "targets": [
+        ["linkText=Start trading", "linkText"],
+        ["css=.button-main:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Start trading')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/trading/signup')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Start trading')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45474d53-1576-42f9-a6e4-58000e849735",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfbee046-121f-4b7c-a512-4eddeaeff830",
+      "comment": "",
+      "command": "click",
+      "target": "css=.download__item:nth-child(2) span",
+      "targets": [
+        ["css=.download__item:nth-child(2) span", "css:finder"],
+        ["xpath=//section[@id='mt4__download']/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'for Mac')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6719",
+      "windowTimeout": 2000
+    }, {
+      "id": "56051e76-4c50-47cd-9f3d-50dbf418db05",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc9a0e1f-6649-4534-a50e-fffee85b4564",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6719}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dea808ee-672c-4cf2-83ec-d4f25ad86733",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39ead5f4-0214-4b89-b6e8-fab09729217a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf8d7ba9-22d8-4248-8e45-f69954c86e1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.download__item:nth-child(3) span",
+      "targets": [
+        ["css=.download__item:nth-child(3) span", "css:finder"],
+        ["xpath=//section[@id='mt4__download']/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'for Windows')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3336",
+      "windowTimeout": 2000
+    }, {
+      "id": "eaf764fb-2d60-4053-b5fc-f6988a00ca65",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3336}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "099e741e-1fa0-4d56-a2ff-2b66fb5c0ea5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d9ce6b7-cd3f-42c5-8ee6-3529db8f7d97",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "595e905b-f93e-43ed-9dd4-908d2d3621bc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.download__item:nth-child(4) span",
+      "targets": [
+        ["css=.download__item:nth-child(4) span", "css:finder"],
+        ["xpath=//section[@id='mt4__download']/div/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Google Play')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9630",
+      "windowTimeout": 2000
+    }, {
+      "id": "d3b4b766-b09e-48e9-94a0-082017279a30",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9630}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fd25994-8a4c-4381-bbb6-04191735c44d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c97588d-8152-4702-a776-09a761f55e11",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "beb260c5-f9c6-4deb-8062-82ecf979c3b0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.download__item:nth-child(5) span",
+      "targets": [
+        ["css=.download__item:nth-child(5) span", "css:finder"],
+        ["xpath=//section[@id='mt4__download']/div/div/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'App Store')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win802",
+      "windowTimeout": 2000
+    }, {
+      "id": "30304ee8-d9c9-4109-952c-3666be9e565d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win802}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "663e8605-abb5-4381-b93e-bc497714c5b3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9cf958b8-27ff-4ff7-a224-615e03395ab7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd753f55-27b1-4bde-b0ff-ebf85610e22a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'WebTerminal')]",
+      "targets": [
+        ["css=.lnk--visit > span", "css:finder"],
+        ["xpath=//section[@id='mt4__download']/div/div/div[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div[5]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'WebTerminal')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ba28a25-b454-44b5-818e-0881eb418994",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aed679b-d3b7-4b00-a217-fc41114402f1",
+      "comment": "",
+      "command": "executeScript",
+      "target": "window.history.go(-1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1930f875-6b52-44ce-aef5-6e14df457e2d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73d36f08-4f9e-4c71-877e-39c4f0a0c4c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-main:nth-child(3)",
+      "targets": [
+        ["css=.button-main:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Start trading')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/trading/signup')]", "xpath:href"],
+        ["xpath=//section[3]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bda06101-1904-4c97-80b3-199116ea4376",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a561d90a-b383-4a2d-b99f-bfb2f463d040",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-main:nth-child(4)",
+      "targets": [
+        ["css=.button-main:nth-child(4)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Start trading')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://capital.com/trading/signup')])[2]", "xpath:href"],
+        ["xpath=//section[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba2be6e-76a2-4999-bc91-108205cb26d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df3b8fdb-405f-4a32-b6c4-cb6860fc94d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use Capital.com on both MT4 web version and app?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdeb27cd-4ab7-4cf0-84ee-b1f7902d8dee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(1) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(1) > .accordion__title", "css:finder"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use Capital.com on both MT4 web version and app?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7438ccb-66e5-4f82-8c59-7d668346c929",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Do you offer integration with MT4 for all customers?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "98ff6171-3f4c-47b3-87c5-c211483ef608",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(2) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(2) > .accordion__title", "css:finder"],
+        ["xpath=//details[2]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Do you offer integration with MT4 for all customers?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc787eb3-4e5c-42e2-ba9a-3a84d6e4cf0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the advantages of using MetaTrader4?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fcb54df-e0d4-4b6b-8e62-4b488c9b8b06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(3) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(3) > .accordion__title", "css:finder"],
+        ["xpath=//details[3]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What are the advantages of using MetaTrader4?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d4991c3-65b0-482c-83df-bdb95f554476",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use MT4 for demo accounts?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b57a9844-fd6f-4cd1-9b55-383db892bcbb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(4) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(4) > .accordion__title", "css:finder"],
+        ["xpath=//details[4]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Can I use MT4 for demo accounts?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d369b3-4665-4894-b530-7e87457191a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Where can I find my login details for MetaTrader 4?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64500318-4c5b-4bd3-8d22-267aeb100b0e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accordion__item:nth-child(5) > .accordion__title",
+      "targets": [
+        ["css=.accordion__item:nth-child(5) > .accordion__title", "css:finder"],
+        ["xpath=//details[5]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'Where can I find my login details for MetaTrader 4?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd827c7-3dd3-4bdd-a1a4-8f3605a6dfb5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//summary[contains(.,'How to create a MetaTrader4 account?')]",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How to create a MetaTrader4 account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82547080-9f35-455f-a868-1dbd3bb0a6bc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//summary[contains(.,'How to create a MetaTrader4 account?')]",
+      "targets": [
+        ["css=.accordion__item:nth-child(6) > .accordion__title", "css:finder"],
+        ["xpath=//details[6]/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How to create a MetaTrader4 account?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5daef48-291b-4361-bbc2-0e85901acdd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js_signup > .cc-icons",
+      "targets": [
+        ["css=.js_signup > .cc-icons", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d920395-ba48-44de-b57d-e60922d8e85d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s_cancel > svg",
+      "targets": [
+        ["css=.s_cancel > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8d8490f-7942-4f24-b7dd-cc22b1e2690f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cc-icons--arrowTop > use",
+      "targets": [
+        ["css=.cc-icons--arrowTop > use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "589b8d86-1cd9-47a0-9e27-8dc3dbca9ef2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TradingView",
+      "targets": [
+        ["linkText=TradingView", "linkText"],
+        ["css=.cc-nav__item:nth-child(3) .cc-nav__link:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'TradingView')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://capital.com/tradingview')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'TradingView')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d0ba5cc-e58c-4303-8c1c-9ec6c8590327",
+      "comment": "",
+      "command": "click",
+      "target": "css=p > .js-scrollToElement",
+      "targets": [
+        ["css=p > .js-scrollToElement", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign up')])[2]", "xpath:link"],
+        ["xpath=//section[@id='connect']/div/div/div[2]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/tradingview#formtop')])[3]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c85a4884-52fe-4ce8-832f-ec9e57611727",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h2[contains(.,'FAQs')]",
+      "targets": [
+        ["css=section:nth-child(10) > .textCenter", "css:finder"],
+        ["xpath=//section[9]/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'FAQs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76df651a-e255-4442-b837-e31abd28dc03",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Sign Up')])[3]",
+      "targets": [
+        ["css=.button-main:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Sign Up')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/tradingview#')])[10]", "xpath:href"],
+        ["xpath=//body/div/div[2]/div/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acbad351-8abc-4c72-96da-5f97003233d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#formtop-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='formtop-email']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab8e361-9df0-4aad-b8ad-e2cdf92465fd",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff01",
+      "targets": [
+        ["name=ff01", "name"],
+        ["css=#formtop-email > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff01']", "xpath:attributes"],
+        ["xpath=//label[@id='formtop-email']/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "e1ccd0d4-cd22-46e5-955c-aeef64abe577",
+      "comment": "",
+      "command": "click",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#formtop-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='formtop-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cc1c89c-c89b-46f8-8de0-16c3a7f15b0f",
+      "comment": "",
+      "command": "type",
+      "target": "name=ff11",
+      "targets": [
+        ["name=ff11", "name"],
+        ["css=#formtop-pass > .field__control", "css:finder"],
+        ["xpath=//input[@name='ff11']", "xpath:attributes"],
+        ["xpath=//label[@id='formtop-pass']/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "asdASDas123!@#"
+    }, {
+      "id": "5959c722-99aa-47d1-a172-1c331eaf4268",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field__eye",
+      "targets": [
+        ["css=.field__eye", "css:finder"],
+        ["xpath=//label[@id='formtop-pass']/i[2]", "xpath:idRelative"],
+        ["xpath=//i[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2344c61-174a-4b76-8580-536dff6ed2a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='formtop']/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2457c41e-2e2e-4603-84ac-710ee35bd27f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b635754-5596-4f4e-a4b2-c82ecdd266c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=path:nth-child(2)",
+      "targets": [
+        ["css=path:nth-child(2)", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6087",
+      "windowTimeout": 2000
+    }, {
+      "id": "0fbd1034-3fb6-488b-a712-77e26b6e779d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6087}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "317c899f-e992-4892-a951-9354832424f2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82266ca3-7cc5-40a7-b9cc-a8efd37c90ed",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0adb6f9a-13ce-4f0b-a794-517083ed7fb6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.socialsLogin__btn--fb use",
+      "targets": [
+        ["css=.socialsLogin__btn--fb use", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4994",
+      "windowTimeout": 2000
+    }, {
+      "id": "97b4a02a-a811-48ed-ba39-b3021f0b08c6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4994}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95912854-8026-4dfa-b7e8-625fefc97aaa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b6425be-919d-436e-af28-0038aae11ad3",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad49f395-4b4d-4b51-89fc-c631083689aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.socialsLogin__btn--apple use",
+      "targets": [
+        ["css=.socialsLogin__btn--apple use", "css:finder"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6943",
+      "windowTimeout": 2000
+    }, {
+      "id": "a4a5ed33-e4e8-408c-b3c2-03aa028d0af8",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6943}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dcedeb3-d002-4214-bc49-3075385a0206",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d2f8ce3-953a-43a1-bd81-253be878f06e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "56f91900-a173-4d3d-af6e-d4b92b59dfee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1a951bbc-c922-47c6-8ec0-1b5e92f9eb77"]
+  }],
+  "urls": ["https://capital.com/"],
+  "plugins": []
+}
